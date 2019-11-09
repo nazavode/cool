@@ -133,14 +133,14 @@ ${call base-}
 
 func (l *Lexer) enterBlockComment() {
 	l.commentLevel++
-  l.State = StateInComment
+	l.State = StateInComment
 }
 
 func (l *Lexer) exitBlockComment() {
 	l.commentLevel--
-  if l.commentLevel <= 0 {
-    l.State = StateInitial
-  }
+	if l.commentLevel <= 0 {
+		l.State = StateInitial
+	}
 }
 
 ${end}

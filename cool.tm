@@ -16,7 +16,7 @@ eventBased = true
 # Accept end-of-input in all states.
 <*> eoi: /{eoi}/
 
-whitespace: /[\n\r\t ]+/ (space)
+whitespace: /[\n\r\t\f\v ]+/ (space)
 
 invalid_token:
 error:

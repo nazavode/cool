@@ -119,7 +119,7 @@ recovered:
 		if rule != 0 {
 			goto recovered
 		}
-	case 3: // whitespace: /[\n\r\t ]+/
+	case 3: // whitespace: /[\n\r\t\f\v ]+/
 		space = true
 	case 4: // EnterBlockComment: /\(\*/
 		space = true

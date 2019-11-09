@@ -19,7 +19,7 @@ var lextests = []struct {
 	{"BlockComment2", "(*(*(**)*)*)", nil},
 	{"BlockComment3", "(*(*(**)*)(*(**)*)*)", nil},
 	{"BlockComment4", "(*else(*then(*if*)*)class(*(*loop*)pool*)case*)", nil},
-	//{"Whitespace", "    \t\t \f \v \r\r\r\n\n      ", nil},
+	{"Whitespace", "    \t\t \f \v \r\r\r\n\n      ", nil},
 	//{"BoolLiterals", "true false tTRUE fALSE True False", []Token{BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, TYPEID, TYPEID}},
 }
 

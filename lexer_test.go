@@ -14,6 +14,7 @@ var lextests = []struct {
 	{"Identifiers", "object Type oBJECT", []Token{OBJECTID, TYPEID, OBJECTID}},
 	{"IntegerLiterals", "0 000 0000 01234567890", []Token{INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL}},
 	{"StringLiterals", "\"\" \" \" \" foo \"", []Token{STRINGLITERAL, STRINGLITERAL, STRINGLITERAL}},
+	{"LineComment", "class -- this is a class\n  class", []Token{CLASS, CLASS}},
 	{"BlockComment0", "(**)", nil},
 	{"BlockComment1", "(*(**)*)", nil},
 	{"BlockComment2", "(*(*(**)*)*)", nil},

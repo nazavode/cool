@@ -27,7 +27,7 @@ type Lexer struct {
 	value       interface{}
 
 	State        int // lexer state, modifiable
-	commentLevel int
+	commentLevel int // number of open nested block comments
 }
 
 var bomSeq = "\xef\xbb\xbf"
@@ -124,14 +124,14 @@ recovered:
 	case 4: // EnterBlockComment: /\(\*/
 		space = true
 		{
-			l.EnterBlockComment()
+			l.enterBlockComment()
 		}
 	case 5: // invalid_token: /\*\)/
 		space = true
 	case 6: // ExitBlockComment: /\*\)/
 		space = true
 		{
-			l.ExitBlockComment()
+			l.exitBlockComment()
 		}
 	case 7: // BlockComment: /([^*(]|\*+[^)]|\([^*])*/
 		space = true
@@ -194,12 +194,12 @@ func (l *Lexer) rewind(offset int) {
 	}
 }
 
-func (l *Lexer) EnterBlockComment() {
+func (l *Lexer) enterBlockComment() {
 	l.commentLevel++
 	l.State = StateInComment
 }
 
-func (l *Lexer) ExitBlockComment() {
+func (l *Lexer) exitBlockComment() {
 	l.commentLevel--
 	if l.commentLevel <= 0 {
 		l.State = StateInitial

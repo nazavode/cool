@@ -1,3 +1,7 @@
+# Grammar of the Cool programming language
+# as specified here:
+# http://theory.stanford.edu/~aiken/software/cool/cool.html
+
 language cool(go);
 
 lang = "cool"
@@ -19,13 +23,13 @@ error:
 
 # Multiline, nested comment blocks
 <initial, inComment>
-EnterBlockComment:  /\(\*/ (space) { l.EnterBlockComment() }
+EnterBlockComment:  /\(\*/ (space) { l.enterBlockComment() }
 
 <initial>
 invalid_token: /\*\)/ (space)
 
 <inComment> {
-ExitBlockComment:  /\*\)/ (space) { l.ExitBlockComment() }
+ExitBlockComment:  /\*\)/ (space) { l.exitBlockComment() }
 
 BlockComment: /([^\*\(]|\*+[^\)]|\([^\*])*/ (space)
 }
@@ -117,7 +121,7 @@ Z = /(z|Z)/
 %%
 
 ${template go_lexer.stateVars-}
-	commentLevel int
+	commentLevel int // number of open nested block comments
 ${end}
 
 ${template go_lexer.initStateVars-}
@@ -127,12 +131,12 @@ ${end}
 ${template go_lexer.lexer-}
 ${call base-}
 
-func (l *Lexer) EnterBlockComment() {
+func (l *Lexer) enterBlockComment() {
 	l.commentLevel++
   l.State = StateInComment
 }
 
-func (l *Lexer) ExitBlockComment() {
+func (l *Lexer) exitBlockComment() {
 	l.commentLevel--
   if l.commentLevel <= 0 {
     l.State = StateInitial

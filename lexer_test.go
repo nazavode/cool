@@ -20,7 +20,7 @@ var lextests = []struct {
 	{"BlockComment3", "(*(*(**)*)(*(**)*)*)", nil},
 	{"BlockComment4", "(*else(*then(*if*)*)class(*(*loop*)pool*)case*)", nil},
 	{"Whitespace", "    \t\t \f \v \r\r\r\n\n      ", nil},
-	//{"BoolLiterals", "true false tTRUE fALSE True False", []Token{BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, TYPEID, TYPEID}},
+	{"BoolLiterals", "true false tRUE fALSE True False", []Token{BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, TYPEID, TYPEID}},
 }
 
 func scan(source string) []Token {

@@ -47,7 +47,7 @@ TypeId  : /[A-Z][_\w]*/ -1
 
 # Literals
 IntegerLiteral: /\d+/
-BoolLiteral   : /(t{R}{U}{E}|f{A}{L}{S}{E})/
+BoolLiteral   : /t{R}{U}{E}|f{A}{L}{S}{E}/
 StringLiteral : /"[^"]*"/
 
 # Keywords (case insensitive)

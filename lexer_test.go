@@ -27,7 +27,7 @@ var testFiles = []struct {
 	{"testdata/s19.test.cool", []Token{INVALID_TOKEN, OBJECTID, INVALID_TOKEN}},
 	{"testdata/s31.test.cool", []Token{INVALID_TOKEN}},
 	{"testdata/s32.test.cool", []Token{INVALID_TOKEN}},
-	// {"testdata/s33.test.cool", []Token{OBJECTID, INVALID_TOKEN}},
+	{"testdata/s33.test.cool", []Token{OBJECTID, INVALID_TOKEN}},
 	// {"testdata/s34.test.cool", []Token{}},
 	// {"testdata/wq0607-c1.cool", []Token{}},
 	// {"testdata/wq0607-c3.cool", []Token{}},

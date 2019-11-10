@@ -32,7 +32,7 @@ var testFiles = []struct {
 	// {"testdata/s34.test.cool", []Token{}},
 	// {"testdata/wq0607-c1.cool", []Token{}},
 	// {"testdata/wq0607-c3.cool", []Token{}},
-	// {"testdata/longcomment.cool", []Token{TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, TYPEID, OBJECTID, OBJECTID, OBJECTID, SEMICOLON, OBJECTID}},
+	{"testdata/longcomment.cool", []Token{TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, TYPEID, OBJECTID, OBJECTID, OBJECTID, SEMICOLON, OBJECTID}},
 }
 
 var testSnippets = []struct {
@@ -69,6 +69,8 @@ var testSnippets = []struct {
 	{"KeywordNew", "new NEW New nEW", []Token{NEW, NEW, NEW, NEW}},
 	{"KeywordOf", "of OF Of oF", []Token{OF, OF, OF, OF}},
 	{"KeywordNot", "not NOT Not nOT", []Token{NOT, NOT, NOT, NOT}},
+	{"BlockComment5", "class(************)class", []Token{CLASS, CLASS}},
+	{"BlockComment6", "class(***)class", []Token{CLASS, CLASS}},
 }
 
 func scan(source string) []Token {

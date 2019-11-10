@@ -23,18 +23,29 @@ error:
 
 # Multiline, nested comment blocks
 <initial, inComment>
-EnterBlockComment:  /\(\*/ (space) { l.enterBlockComment() }
+EnterBlockComment:  /\(\*/ (space)
+	{ l.enterBlockComment() }
 
 <initial>
 invalid_token: /\*\)/ (space)
 
 <inComment> {
-ExitBlockComment:  /\*\)/ (space) { l.exitBlockComment() }
+ExitBlockComment:  /\*\)/ (space)
+	{ l.exitBlockComment() }
 
-BlockComment: /([^\*\(]|\*+[^\)]|\([^\*])*/ (space)
+# TODO
+# Still have to figure out how to match \*+ without breaking comments
+# like "(***)" (see testdata/longcomment.cool for instance). Just go
+# for the slowest solution, at least for now: the rhs is going to
+# make the lexer change state at each "*" or "(" or ")" character
+# found in a block comment.
+# Note: this solution needs no backtracking, lexer tables turned out
+# really compact. Still have to do actual measurements to figure out
+# whether this one is suboptimal in the real world or not.
+BlockComment: /[^\(\)\*]+|[\*\(\)]/ (space)
 }
 
-SingleLineComment: /\-\-.*/ (space)
+LineComment: /\-\-.*/ (space)
 
 # Identifiers
 # All identifier rules conflict with keywords.

@@ -62,8 +62,6 @@ restart:
 	l.tokenOffset = l.offset
 
 	state := tmStateMap[l.State]
-	backupRule := -1
-	var backupOffset int
 	for state >= 0 {
 		var ch int
 		if uint(l.ch) < tmRuneClassLen {
@@ -76,12 +74,6 @@ restart:
 		}
 		state = int(tmLexerAction[state*tmNumClasses+ch])
 		if state > tmFirstRule {
-			if state < 0 {
-				state = (-1 - state) * 2
-				backupRule = tmBacktracking[state]
-				backupOffset = l.offset
-				state = tmBacktracking[state+1]
-			}
 			if l.ch == '\n' {
 				l.line++
 			}
@@ -104,20 +96,13 @@ restart:
 	}
 
 	rule := tmFirstRule - state
-recovered:
 
 	token := tmToken[rule]
 	space := false
 	switch rule {
 	case 0:
-		if backupRule >= 0 {
-			rule = backupRule
-			l.rewind(backupOffset)
-		} else if l.offset == l.tokenOffset {
+		if l.offset == l.tokenOffset {
 			l.rewind(l.scanOffset)
-		}
-		if rule != 0 {
-			goto recovered
 		}
 	case 3: // whitespace: /[\n\r\t\f\v ]+/
 		space = true
@@ -133,9 +118,9 @@ recovered:
 		{
 			l.exitBlockComment()
 		}
-	case 7: // BlockComment: /([^*(]|\*+[^)]|\([^*])*/
+	case 7: // BlockComment: /[^()*]+|[*()]/
 		space = true
-	case 8: // SingleLineComment: /\-\-.*/
+	case 8: // LineComment: /\-\-.*/
 		space = true
 	}
 	if space {

@@ -78,6 +78,7 @@ var testSnippets = []struct {
 	{"KeywordOf", "of OF Of oF", []Token{OF, OF, OF, OF}},
 	{"KeywordNot", "not NOT Not nOT", []Token{NOT, NOT, NOT, NOT}},
 	{"ValidChars", "+/-*=<.~,;:()@{}", []Token{PLUS, DIV, MINUS, MULT, ASSIGN, LT, DOT, TILDE, COMMA, SEMICOLON, COLON, LPAREN, RPAREN, ATSIGN, LBRACE, RBRACE}},
+	{"NullInCode", "class\000if", []Token{CLASS, INVALID_TOKEN, IF}},
 }
 
 func scan(source string) []Token {

@@ -1,9 +1,7 @@
-TMJAR:=$(if $(TEXTMAPPER),$(TEXTMAPPER),textmapper.jar)
-
 all: gen
 
 gen: cool.tm
-	@java -jar ${TMJAR} $<
+	@textmapper generate
 	@go fmt ./... > /dev/null
 	@go build ./...
 

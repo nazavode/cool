@@ -1,13 +1,15 @@
+GENSOURCES =	\
+	token.go 	\
+	lexer.go	\
+	lexer_tables.go 
+
 all: gen
 
-gen: cool.tm
+gen: $(GENSOURCES)
+
+$(GENSOURCES): cool.tm
 	@textmapper generate
 	@go fmt ./... > /dev/null
-	@go build ./...
 
 clean:
-	$(RM) -v cool listener.go lexer.go lexer_tables.go parser.go parser_tables.go token.go
-	$(RM) -rf -v ast/
-	$(RM) -rf -v selector/
-
-.PHONY: all gen clean
+	$(RM) $(GENSOURCES)

@@ -13,8 +13,7 @@ EBNF-like format specified by [TextMapper](https://github.com/inspirer/textmappe
 Firstly we need to make sure the [TextMapper](https://github.com/inspirer/textmapper) tool is available:
 
 ```console
-$ wget https://github.com/inspirer/textmapper/releases/download/0.9.24/textmapper-0.9.24.jar
-$ export TEXTMAPPER="$(pwd)/textmapper-0.9.24.jar"
+$ go get github.com/inspirer/textmapper/tm-go/cmd/textmapper
 ```
 
 Then, we can regenerate all the `go` code for both the lexer and parser:

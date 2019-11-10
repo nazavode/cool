@@ -104,21 +104,25 @@ restart:
 		if l.offset == l.tokenOffset {
 			l.rewind(l.scanOffset)
 		}
-	case 3: // whitespace: /[\n\r\t\f\v ]+/
+	case 2: // whitespace: /[\n\r\t\f\v ]+/
 		space = true
-	case 4: // EnterBlockComment: /\(\*/
+	case 3: // EnterBlockComment: /\(\*/
 		space = true
 		{
 			l.enterBlockComment()
 		}
-	case 6: // ExitBlockComment: /\*\)/
+	case 4: // invalid_token: /{eoi}/
+		{
+			l.State = StateInitial
+		}
+	case 5: // ExitBlockComment: /\*\)/
 		space = true
 		{
 			l.exitBlockComment()
 		}
-	case 7: // BlockComment: /[^()*]+|[*()]/
+	case 6: // BlockComment: /[^\(\)\*]+|[\*\(\)]/
 		space = true
-	case 8: // LineComment: /\-\-.*/
+	case 7: // LineComment: /\-\-.*/
 		space = true
 	}
 	if space {

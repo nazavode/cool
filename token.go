@@ -13,9 +13,9 @@ type Token int
 const (
 	UNAVAILABLE Token = iota - 1
 	EOI
-	INVALID_TOKEN // *)
-	WHITESPACE
+	INVALID_TOKEN
 	ERROR
+	WHITESPACE
 	ENTERBLOCKCOMMENT // (*
 	EXITBLOCKCOMMENT  // *)
 	BLOCKCOMMENT
@@ -67,9 +67,9 @@ const (
 
 var tokenStr = [...]string{
 	"EOI",
-	"*)",
-	"WHITESPACE",
+	"INVALID_TOKEN",
 	"ERROR",
+	"WHITESPACE",
 	"(*",
 	"*)",
 	"BLOCKCOMMENT",

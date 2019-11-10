@@ -12,13 +12,13 @@ package = "github.com/nazavode/cool"
 %s initial;
 %x inComment;
 
-# Accept end-of-input in all states.
-<*> eoi: /{eoi}/
-
-whitespace: /[\n\r\t\f\v ]+/ (space)
-
 invalid_token:
 error:
+
+# Accept end-of-input in all states.
+# <*> eoi: /{eoi}/
+
+whitespace: /[\n\r\t\f\v ]+/ (space)
 
 # Multiline, nested comment blocks
 <initial, inComment>
@@ -29,6 +29,11 @@ EnterBlockComment:  /\(\*/ (space)
 invalid_token: /\*\)/
 
 <inComment> {
+
+# TODO report eoi as invalid token in comment
+invalid_token: /{eoi}/
+	{ l.State = StateInitial }
+
 ExitBlockComment:  /\*\)/ (space)
 	{ l.exitBlockComment() }
 
@@ -100,31 +105,31 @@ not     : /{N}{O}{T}/
 
 # Case insensitive chars
 A = /(a|A)/
-B = /(b|B)/
+# B = /(b|B)/
 C = /(c|C)/
 D = /(d|D)/
 E = /(e|E)/
 F = /(f|F)/
-G = /(g|G)/
+# G = /(g|G)/
 H = /(h|H)/
 I = /(i|I)/
-J = /(j|J)/
-K = /(k|K)/
+# J = /(j|J)/
+# K = /(k|K)/
 L = /(l|L)/
-M = /(m|M)/
+# M = /(m|M)/
 N = /(n|N)/
 O = /(o|O)/
 P = /(p|P)/
-Q = /(q|Q)/
+# Q = /(q|Q)/
 R = /(r|R)/
 S = /(s|S)/
 T = /(t|T)/
 U = /(u|U)/
 V = /(v|V)/
 W = /(w|W)/
-X = /(x|X)/
-Y = /(y|Y)/
-Z = /(z|Z)/
+# X = /(x|X)/
+# Y = /(y|Y)/
+# Z = /(z|Z)/
 
 %%
 
@@ -136,8 +141,8 @@ ${template go_lexer.initStateVars-}
 	l.commentLevel = 0
 ${end}
 
-${template go_lexer.lexer-}
-${call base-}
+${template newTemplates-}
+{{define "onAfterLexer"}}
 
 // enterBlockComment marks the beginning of a comment block
 // and makes the lexer to transition to "inComment" state.
@@ -155,5 +160,5 @@ func (l *Lexer) exitBlockComment() {
 		l.State = StateInitial
 	}
 }
-
+{{end}}
 ${end}

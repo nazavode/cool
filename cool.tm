@@ -26,7 +26,7 @@ EnterBlockComment:  /\(\*/ (space)
 	{ l.enterBlockComment() }
 
 <initial>
-invalid_token: /\*\)/ (space)
+invalid_token: /\*\)/
 
 <inComment> {
 ExitBlockComment:  /\*\)/ (space)

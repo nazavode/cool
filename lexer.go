@@ -111,8 +111,6 @@ restart:
 		{
 			l.enterBlockComment()
 		}
-	case 5: // invalid_token: /\*\)/
-		space = true
 	case 6: // ExitBlockComment: /\*\)/
 		space = true
 		{

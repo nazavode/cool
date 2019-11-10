@@ -24,11 +24,10 @@ var testFiles = []struct {
 	{"testdata/twice_512_nested_comments.cl.cool", []Token{OBJECTID}},
 	{"testdata/wq0607-c1.cool", []Token{STRINGLITERAL}},
 	{"testdata/longstring_escapedbackslashes.cool", []Token{STRINGLITERAL, STRINGLITERAL}},
-	// TODO
 	{"testdata/s19.test.cool", []Token{INVALID_TOKEN, OBJECTID, INVALID_TOKEN}},
-	// {"testdata/s31.test.cool", []Token{}},
-	// {"testdata/s32.test.cool", []Token{}},
-	// {"testdata/s33.test.cool", []Token{}},
+	{"testdata/s31.test.cool", []Token{INVALID_TOKEN}},
+	{"testdata/s32.test.cool", []Token{INVALID_TOKEN}},
+	// {"testdata/s33.test.cool", []Token{OBJECTID, INVALID_TOKEN}},
 	// {"testdata/s34.test.cool", []Token{}},
 	// {"testdata/wq0607-c1.cool", []Token{}},
 	// {"testdata/wq0607-c3.cool", []Token{}},
@@ -40,16 +39,18 @@ var testSnippets = []struct {
 	source string
 	tokens []Token
 }{
-	{"Empty", "", nil},
-	{"Identifiers", "object Type oBJECT", []Token{OBJECTID, TYPEID, OBJECTID}},
-	{"IntegerLiterals", "0 000 0000 01234567890", []Token{INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL}},
-	{"StringLiterals", "\"\" \" \" \" foo \"", []Token{STRINGLITERAL, STRINGLITERAL, STRINGLITERAL}},
 	{"LineComment", "class -- this is a class\n  class", []Token{CLASS, CLASS}},
 	{"BlockComment0", "(**)", nil},
 	{"BlockComment1", "(*(**)*)", nil},
 	{"BlockComment2", "(*(*(**)*)*)", nil},
 	{"BlockComment3", "(*(*(**)*)(*(**)*)*)", nil},
 	{"BlockComment4", "class (*else(*then(*if*)*)class(*(*loop*)pool*)case*) class", []Token{CLASS, CLASS}},
+	{"BlockComment5", "class(************)class", []Token{CLASS, CLASS}},
+	{"BlockComment6", "class(***)class", []Token{CLASS, CLASS}},
+	{"Empty", "", nil},
+	{"Identifiers", "object Type oBJECT", []Token{OBJECTID, TYPEID, OBJECTID}},
+	{"IntegerLiterals", "0 000 0000 01234567890", []Token{INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL}},
+	{"StringLiterals", "\"\" \" \" \" foo \"", []Token{STRINGLITERAL, STRINGLITERAL, STRINGLITERAL}},
 	{"Whitespace", "    \t\t \f \v \r\r\r\n\n      ", nil},
 	{"BoolLiterals", "true false tRUE fALSE True False", []Token{BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, TYPEID, TYPEID}},
 	{"KeywordClass", "class CLASS Class cLASS", []Token{CLASS, CLASS, CLASS, CLASS}},
@@ -69,8 +70,6 @@ var testSnippets = []struct {
 	{"KeywordNew", "new NEW New nEW", []Token{NEW, NEW, NEW, NEW}},
 	{"KeywordOf", "of OF Of oF", []Token{OF, OF, OF, OF}},
 	{"KeywordNot", "not NOT Not nOT", []Token{NOT, NOT, NOT, NOT}},
-	{"BlockComment5", "class(************)class", []Token{CLASS, CLASS}},
-	{"BlockComment6", "class(***)class", []Token{CLASS, CLASS}},
 }
 
 func scan(source string) []Token {

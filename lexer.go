@@ -179,11 +179,16 @@ func (l *Lexer) rewind(offset int) {
 	}
 }
 
+// enterBlockComment marks the beginning of a comment block
+// and makes the lexer to transition to "inComment" state.
 func (l *Lexer) enterBlockComment() {
 	l.commentLevel++
 	l.State = StateInComment
 }
 
+// exitBlockComment marks the end of a comment block
+// and makes the lexer to transition to "initial" state
+// if no other blocks are still open.
 func (l *Lexer) exitBlockComment() {
 	l.commentLevel--
 	if l.commentLevel <= 0 {

@@ -47,11 +47,9 @@ BlockComment: /[^\(\)\*]+|[\*\(\)]/ (space)
 LineComment: /\-\-.*/ (space)
 
 # Identifiers
-# All identifier rules conflict with keywords.
-# We cannot use the (class) qualifier here
-# b/c keywords in Cool aren't constant words
-# (case insensitive make them parametric).
-# Just use explicit priority.
+# All identifier rules conflict with keywords. We cannot use the (class)
+# qualifier here since keywords in Cool are not constant words (case
+# insensitiveness makes them non-terminal). Just use explicit priority.
 ObjectId: /[a-z][_\w]*/ -1
 TypeId  : /[A-Z][_\w]*/ -1
 
@@ -141,11 +139,16 @@ ${end}
 ${template go_lexer.lexer-}
 ${call base-}
 
+// enterBlockComment marks the beginning of a comment block
+// and makes the lexer to transition to "inComment" state.
 func (l *Lexer) enterBlockComment() {
 	l.commentLevel++
 	l.State = StateInComment
 }
 
+// exitBlockComment marks the end of a comment block
+// and makes the lexer to transition to "initial" state
+// if no other blocks are still open.
 func (l *Lexer) exitBlockComment() {
 	l.commentLevel--
 	if l.commentLevel <= 0 {

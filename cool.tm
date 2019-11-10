@@ -15,9 +15,6 @@ package = "github.com/nazavode/cool"
 invalid_token:
 error:
 
-# Accept end-of-input in all states.
-# <*> eoi: /{eoi}/
-
 invalid_token: /\000/
 
 whitespace: /[\n\r\t\f\v ]+/ (space)
@@ -32,7 +29,6 @@ invalid_token: /\*\)/
 
 <inComment> {
 
-# TODO report eoi as invalid token in comment
 invalid_token: /{eoi}/
 	{ l.State = StateInitial }
 

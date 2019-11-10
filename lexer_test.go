@@ -2,10 +2,40 @@ package cool
 
 import (
 	"github.com/google/go-cmp/cmp"
+	"io/ioutil"
+	"log"
+	"path"
 	"testing"
 )
 
-var lextests = []struct {
+var testFiles = []struct {
+	file   string
+	tokens []Token
+}{
+	{"testdata/pathologicalstrings.cool", []Token{STRINGLITERAL, STRINGLITERAL, STRINGLITERAL, STRINGLITERAL, STRINGLITERAL}},
+	{"testdata/nestedcomment.cool", nil},
+	{"testdata/s04.test.cool", []Token{INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL}},
+	{"testdata/s05.test.cool", []Token{STRINGLITERAL}},
+	{"testdata/s14.test.cool", []Token{OBJECTID, OBJECTID}},
+	{"testdata/s16.test.cool", []Token{INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL}},
+	{"testdata/s25.test.cool", []Token{OBJECTID, OBJECTID, OBJECTID, OBJECTID, TYPEID, TYPEID, TYPEID, TYPEID}},
+	{"testdata/s26.test.cool", []Token{INTEGERLITERAL, OBJECTID}},
+	{"testdata/stringcomment.cool", []Token{STRINGLITERAL, STRINGLITERAL}},
+	{"testdata/twice_512_nested_comments.cl.cool", []Token{OBJECTID}},
+	{"testdata/wq0607-c1.cool", []Token{STRINGLITERAL}},
+	{"testdata/longstring_escapedbackslashes.cool", []Token{STRINGLITERAL, STRINGLITERAL}},
+	// TODO
+	// {"testdata/s19.test.cool", []Token{}},
+	// {"testdata/s31.test.cool", []Token{}},
+	// {"testdata/s32.test.cool", []Token{}},
+	// {"testdata/s33.test.cool", []Token{}},
+	// {"testdata/s34.test.cool", []Token{}},
+	// {"testdata/wq0607-c1.cool", []Token{}},
+	// {"testdata/wq0607-c3.cool", []Token{}},
+	// {"testdata/longcomment.cool", []Token{TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, TYPEID, OBJECTID, OBJECTID, OBJECTID, SEMICOLON, OBJECTID}},
+}
+
+var testSnippets = []struct {
 	name   string
 	source string
 	tokens []Token
@@ -51,10 +81,27 @@ func scan(source string) []Token {
 	return tokens
 }
 
-func TestLexer(t *testing.T) {
-	for _, tt := range lextests {
+func TestLexerSnippets(t *testing.T) {
+	for _, tt := range testSnippets {
 		t.Run(tt.name, func(t *testing.T) {
 			got := scan(tt.source)
+			if diff := cmp.Diff(tt.tokens, got); diff != "" {
+				t.Errorf("lex mismatch (-want +got):\n%s", diff)
+			}
+		})
+	}
+}
+
+func TestLexerFiles(t *testing.T) {
+	for _, tt := range testFiles {
+		name := path.Base(tt.file)
+		data, err := ioutil.ReadFile(tt.file)
+		if err != nil {
+			log.Fatalln(err)
+		}
+		source := string(data)
+		t.Run(name, func(t *testing.T) {
+			got := scan(source)
 			if diff := cmp.Diff(tt.tokens, got); diff != "" {
 				t.Errorf("lex mismatch (-want +got):\n%s", diff)
 			}

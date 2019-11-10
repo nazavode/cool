@@ -18,6 +18,8 @@ error:
 # Accept end-of-input in all states.
 # <*> eoi: /{eoi}/
 
+invalid_token: /\000/
+
 whitespace: /[\n\r\t\f\v ]+/ (space)
 
 # Multiline, nested comment blocks

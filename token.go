@@ -51,7 +51,7 @@ const (
 	COMMA     // ,
 	LT        // <
 	LTASSIGN  // <=
-	GTASSIGN  // >=
+	ASSIGNGT  // =>
 	ATSIGN    // @
 	PLUS      // +
 	MINUS     // -
@@ -105,7 +105,7 @@ var tokenStr = [...]string{
 	",",
 	"<",
 	"<=",
-	">=",
+	"=>",
 	"@",
 	"+",
 	"-",

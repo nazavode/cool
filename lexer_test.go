@@ -28,10 +28,17 @@ var testFiles = []struct {
 	{"testdata/s31.test.cool", []Token{INVALID_TOKEN}},
 	{"testdata/s32.test.cool", []Token{INVALID_TOKEN}},
 	{"testdata/s33.test.cool", []Token{OBJECTID, INVALID_TOKEN}},
-	// {"testdata/s34.test.cool", []Token{}},
-	// {"testdata/wq0607-c1.cool", []Token{}},
-	// {"testdata/wq0607-c3.cool", []Token{}},
+	{"testdata/s34.test.cool", []Token{OBJECTID, INVALID_TOKEN}},
+	{"testdata/wq0607-c1.cool", []Token{STRINGLITERAL}},
+	{"testdata/wq0607-c2.cool", []Token{STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL}},
+	{"testdata/null_in_code.cl.cool", []Token{OBJECTID, OBJECTID, OBJECTID, OBJECTID, ASSIGNGT, INVALID_TOKEN, LTMINUS, RPAREN}},
+	{"testdata/null_in_string_unescaped_newline.cl.cool", []Token{INVALID_TOKEN, OBJECTID, PLUS}},
 	{"testdata/longcomment.cool", []Token{TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, TYPEID, OBJECTID, OBJECTID, OBJECTID, SEMICOLON, OBJECTID}},
+	// TODO currently failing
+	// {"testdata/wq0607-c3.cool", []Token{STRINGLITERAL, STRINGLITERAL, INVALID_TOKEN, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL, STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN, INVALID_TOKEN}},
+	// {"testdata/wq0607-c4.cool", []Token{}},
+	// {"testdata/null_in_string.cl.cool", []Token{INVALID_TOKEN}},
+	// {"testdata/null_in_string_followed_by_tokens.cl.cool", []Token{INVALID_TOKEN, OBJECTID, PLUS}},
 }
 
 var testSnippets = []struct {

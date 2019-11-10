@@ -25,7 +25,7 @@ var testFiles = []struct {
 	{"testdata/wq0607-c1.cool", []Token{STRINGLITERAL}},
 	{"testdata/longstring_escapedbackslashes.cool", []Token{STRINGLITERAL, STRINGLITERAL}},
 	// TODO
-	// {"testdata/s19.test.cool", []Token{}},
+	{"testdata/s19.test.cool", []Token{INVALID_TOKEN, OBJECTID, INVALID_TOKEN}},
 	// {"testdata/s31.test.cool", []Token{}},
 	// {"testdata/s32.test.cool", []Token{}},
 	// {"testdata/s33.test.cool", []Token{}},

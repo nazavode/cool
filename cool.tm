@@ -6,7 +6,6 @@ language cool(go);
 
 lang = "cool"
 package = "github.com/nazavode/cool"
-eventBased = true
 
 :: lexer
 

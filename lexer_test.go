@@ -70,6 +70,7 @@ var testSnippets = []struct {
 	{"KeywordNew", "new NEW New nEW", []Token{NEW, NEW, NEW, NEW}},
 	{"KeywordOf", "of OF Of oF", []Token{OF, OF, OF, OF}},
 	{"KeywordNot", "not NOT Not nOT", []Token{NOT, NOT, NOT, NOT}},
+	{"ValidChars", "+/-*=<.~,;:()@{}", []Token{PLUS, DIV, MINUS, MULT, ASSIGN, LT, DOT, TILDE, COMMA, SEMICOLON, COLON, LPAREN, RPAREN, ATSIGN, LBRACE, RBRACE}},
 }
 
 func scan(source string) []Token {

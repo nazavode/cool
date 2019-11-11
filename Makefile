@@ -1,5 +1,5 @@
 GENSOURCES =	\
-	token.go 	\
+	token.go	\
 	lexer.go	\
 	lexer_tables.go 
 

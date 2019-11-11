@@ -15,7 +15,7 @@ package = "github.com/nazavode/cool"
 invalid_token:
 error:
 
-invalid_token: /\000/
+invalid_token: /\x00/
 
 whitespace: /[\n\r\t\f\v ]+/ (space)
 
@@ -59,7 +59,7 @@ TypeId  : /[A-Z][_\w]*/ -1
 # Literals
 IntegerLiteral: /\d+/
 BoolLiteral   : /t{R}{U}{E}|f{A}{L}{S}{E}/
-StringLiteral : /"([^"\n\\]|\\[\S\n])*"/
+StringLiteral : /"([^"\n\\]|\\[\S\s])*"/
 
 # Keywords (case insensitive)
 class   : /{C}{L}{A}{S}{S}/

@@ -1,0 +1,7 @@
+[
+	{
+		"line": 1,
+		"token": 11,
+		"source": "\"other unescaped whitespace: \t\u000c\u0012\u000b\""
+	}
+]

@@ -1,0 +1,32 @@
+[
+	{
+		"line": 1,
+		"token": 8,
+		"source": "This"
+	},
+	{
+		"line": 1,
+		"token": 7,
+		"source": "comment"
+	},
+	{
+		"line": 1,
+		"token": 7,
+		"source": "was"
+	},
+	{
+		"line": 1,
+		"token": 7,
+		"source": "never"
+	},
+	{
+		"line": 1,
+		"token": 7,
+		"source": "begun"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "*)"
+	}
+]

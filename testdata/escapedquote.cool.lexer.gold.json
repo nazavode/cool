@@ -1,0 +1,7 @@
+[
+	{
+		"line": 1,
+		"token": 1,
+		"source": "\"string with no closing quote\\\""
+	}
+]

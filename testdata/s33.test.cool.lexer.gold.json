@@ -1,0 +1,12 @@
+[
+	{
+		"line": 3,
+		"token": 7,
+		"source": "before_the_comment"
+	},
+	{
+		"line": 8,
+		"token": 1,
+		"source": ""
+	}
+]

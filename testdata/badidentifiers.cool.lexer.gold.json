@@ -1,0 +1,102 @@
+[
+	{
+		"line": 1,
+		"token": 7,
+		"source": "inky"
+	},
+	{
+		"line": 1,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 1,
+		"token": 7,
+		"source": "binky"
+	},
+	{
+		"line": 1,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 1,
+		"token": 7,
+		"source": "winky"
+	},
+	{
+		"line": 1,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 1,
+		"token": 7,
+		"source": "dot"
+	},
+	{
+		"line": 2,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "thatwasanumber"
+	},
+	{
+		"line": 3,
+		"token": 7,
+		"source": "two"
+	},
+	{
+		"line": 3,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 3,
+		"token": 7,
+		"source": "objects"
+	},
+	{
+		"line": 4,
+		"token": 8,
+		"source": "Two"
+	},
+	{
+		"line": 4,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 4,
+		"token": 8,
+		"source": "Types"
+	},
+	{
+		"line": 5,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 5,
+		"token": 7,
+		"source": "underscore"
+	},
+	{
+		"line": 6,
+		"token": 8,
+		"source": "Type"
+	},
+	{
+		"line": 6,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 6,
+		"token": 7,
+		"source": "object"
+	}
+]

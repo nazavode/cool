@@ -1,0 +1,162 @@
+[
+	{
+		"line": 1,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 2,
+		"token": 13,
+		"source": "Else"
+	},
+	{
+		"line": 3,
+		"token": 13,
+		"source": "eLse"
+	},
+	{
+		"line": 4,
+		"token": 13,
+		"source": "elSe"
+	},
+	{
+		"line": 5,
+		"token": 13,
+		"source": "elsE"
+	},
+	{
+		"line": 6,
+		"token": 13,
+		"source": "ELse"
+	},
+	{
+		"line": 7,
+		"token": 13,
+		"source": "ElSe"
+	},
+	{
+		"line": 8,
+		"token": 13,
+		"source": "ElsE"
+	},
+	{
+		"line": 9,
+		"token": 13,
+		"source": "eLSe"
+	},
+	{
+		"line": 10,
+		"token": 13,
+		"source": "eLsE"
+	},
+	{
+		"line": 11,
+		"token": 13,
+		"source": "elSE"
+	},
+	{
+		"line": 12,
+		"token": 13,
+		"source": "eLSE"
+	},
+	{
+		"line": 13,
+		"token": 13,
+		"source": "ElSE"
+	},
+	{
+		"line": 14,
+		"token": 13,
+		"source": "ELsE"
+	},
+	{
+		"line": 15,
+		"token": 13,
+		"source": "ELSe"
+	},
+	{
+		"line": 16,
+		"token": 13,
+		"source": "ELSE"
+	},
+	{
+		"line": 18,
+		"token": 10,
+		"source": "true"
+	},
+	{
+		"line": 19,
+		"token": 10,
+		"source": "tRue"
+	},
+	{
+		"line": 20,
+		"token": 10,
+		"source": "trUe"
+	},
+	{
+		"line": 21,
+		"token": 10,
+		"source": "truE"
+	},
+	{
+		"line": 22,
+		"token": 10,
+		"source": "tRUe"
+	},
+	{
+		"line": 23,
+		"token": 10,
+		"source": "tRuE"
+	},
+	{
+		"line": 24,
+		"token": 10,
+		"source": "trUE"
+	},
+	{
+		"line": 25,
+		"token": 10,
+		"source": "tRUE"
+	},
+	{
+		"line": 26,
+		"token": 8,
+		"source": "True"
+	},
+	{
+		"line": 27,
+		"token": 8,
+		"source": "TRue"
+	},
+	{
+		"line": 28,
+		"token": 8,
+		"source": "TrUe"
+	},
+	{
+		"line": 29,
+		"token": 8,
+		"source": "TruE"
+	},
+	{
+		"line": 30,
+		"token": 8,
+		"source": "TRUe"
+	},
+	{
+		"line": 31,
+		"token": 8,
+		"source": "TRuE"
+	},
+	{
+		"line": 32,
+		"token": 8,
+		"source": "TrUE"
+	},
+	{
+		"line": 33,
+		"token": 8,
+		"source": "TRUE"
+	}
+]

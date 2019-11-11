@@ -1,0 +1,12 @@
+[
+	{
+		"line": 1,
+		"token": 7,
+		"source": "before_it"
+	},
+	{
+		"line": 3,
+		"token": 1,
+		"source": "\"this string \\\ndoens't end"
+	}
+]

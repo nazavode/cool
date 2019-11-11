@@ -1,0 +1,22 @@
+[
+	{
+		"line": 7,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 8,
+		"token": 7,
+		"source": "abc"
+	},
+	{
+		"line": 12,
+		"token": 8,
+		"source": "DEF"
+	},
+	{
+		"line": 13,
+		"token": 11,
+		"source": "\"string\""
+	}
+]

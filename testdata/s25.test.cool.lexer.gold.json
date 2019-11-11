@@ -1,0 +1,42 @@
+[
+	{
+		"line": 2,
+		"token": 7,
+		"source": "objid"
+	},
+	{
+		"line": 3,
+		"token": 7,
+		"source": "obj_id"
+	},
+	{
+		"line": 4,
+		"token": 7,
+		"source": "oBJ_ID"
+	},
+	{
+		"line": 5,
+		"token": 7,
+		"source": "this1321321isth382t843____daLong_IDIDd"
+	},
+	{
+		"line": 8,
+		"token": 8,
+		"source": "Mytype"
+	},
+	{
+		"line": 9,
+		"token": 8,
+		"source": "MYTYPE"
+	},
+	{
+		"line": 10,
+		"token": 8,
+		"source": "Type_4"
+	},
+	{
+		"line": 11,
+		"token": 8,
+		"source": "T3432_adwqfewf234g4ffew__sdfdwwSDQWE342"
+	}
+]

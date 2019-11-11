@@ -1,0 +1,37 @@
+[
+	{
+		"line": 1,
+		"token": 1,
+		"source": "\"I'm not going to escape this newline"
+	},
+	{
+		"line": 2,
+		"token": 1,
+		"source": "\""
+	},
+	{
+		"line": 4,
+		"token": 1,
+		"source": "\"This is also not escaped \\\\"
+	},
+	{
+		"line": 5,
+		"token": 1,
+		"source": "\""
+	},
+	{
+		"line": 7,
+		"token": 11,
+		"source": "\"This is, though \\\\\\\n\""
+	},
+	{
+		"line": 10,
+		"token": 11,
+		"source": "\"\\\\\""
+	},
+	{
+		"line": 12,
+		"token": 11,
+		"source": "\"It's fine to have this: \\n in a string\""
+	}
+]

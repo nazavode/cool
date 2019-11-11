@@ -1,0 +1,27 @@
+[
+	{
+		"line": 1,
+		"token": 11,
+		"source": "\"This is a tab:\\\t\""
+	},
+	{
+		"line": 2,
+		"token": 11,
+		"source": "\"This is a backspace:\\\u0008\""
+	},
+	{
+		"line": 3,
+		"token": 11,
+		"source": "\"This is a formfeed:\\\u000c\""
+	},
+	{
+		"line": 4,
+		"token": 11,
+		"source": "\"This is a carriage return:\r\""
+	},
+	{
+		"line": 5,
+		"token": 11,
+		"source": "\"This is an escape:\u001b\""
+	}
+]

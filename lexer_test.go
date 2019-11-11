@@ -1,80 +1,86 @@
 package cool
 
 import (
+	"bytes"
+	"encoding/json"
 	"github.com/google/go-cmp/cmp"
 	"io/ioutil"
 	"log"
-	"path"
 	"testing"
+	"text/template"
 )
 
-var testFiles = []struct {
-	file   string
-	tokens []Token
-}{
-	// {"testdata/arith.cool", []Token{}},
-	// {"testdata/atoi.cool", []Token{}},
-	{"testdata/backslash2.cool", []Token{INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, STRINGLITERAL, STRINGLITERAL, STRINGLITERAL}},
-	{"testdata/backslash.cool", []Token{STRINGLITERAL, STRINGLITERAL, STRINGLITERAL}},
-	{"testdata/badidentifiers.cool", []Token{OBJECTID, DOT, OBJECTID, DOT, OBJECTID, DOT, OBJECTID, INTEGERLITERAL, OBJECTID, OBJECTID, MINUS, OBJECTID, TYPEID, MINUS, TYPEID, INVALID_TOKEN, OBJECTID, TYPEID, MINUS, OBJECTID}},
-	{"testdata/badkeywords.cool", []Token{OBJECTID, OBJECTID, OBJECTID, OBJECTID, SEMICOLON, OBJECTID, OBJECTID, TYPEID, OBJECTID, OBJECTID, OBJECTID, OBJECTID, OBJECTID, TYPEID, TYPEID, TYPEID, OBJECTID, TYPEID, THEN, OBJECTID, OBJECTID, TYPEID, OBJECTID}},
-	// {"testdata/book_list.cl.cool", []Token{}},
-	{"testdata/bothcomments.cool", []Token{OBJECTID, OBJECTID, OBJECTID, OBJECTID, OBJECTID, OBJECTID, INVALID_TOKEN, DOT, IF, INTEGERLITERAL, THEN}},
-	{"testdata/comment_in_string.cl.cool", []Token{STRINGLITERAL, STRINGLITERAL, STRINGLITERAL}},
-	{"testdata/endcomment.cool", []Token{TYPEID, OBJECTID, OBJECTID, OBJECTID, OBJECTID, INVALID_TOKEN}},
-	{"testdata/eofstring.cool", []Token{INVALID_TOKEN}},
-	{"testdata/escaped_chars_in_comment.cl.cool", []Token{OBJECTID}},
-	{"testdata/escapedeof.cool", []Token{INVALID_TOKEN}},
-	// FAIL {"testdata/escapednull.cool", []Token{INVALID_TOKEN}},
-	{"testdata/escapedquote.cool", []Token{INVALID_TOKEN}},
-	{"testdata/escapedunprintables.cool", []Token{STRINGLITERAL, STRINGLITERAL, STRINGLITERAL, STRINGLITERAL, STRINGLITERAL}},
-	// {"testdata/hairyscary.cool", []Token{}},
-	{"testdata/integers2.cool", []Token{INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, OBJECTID, INTEGERLITERAL, INTEGERLITERAL, MINUS, INTEGERLITERAL, INTEGERLITERAL, OBJECTID}},
-	{"testdata/invalidcharacters.cool", []Token{INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN}},
-	{"testdata/invalidinvisible.cool", []Token{OBJECTID, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, INVALID_TOKEN, OBJECTID}},
-	// {"testdata/io.cool", []Token{}},
-	{"testdata/keywords.cool", []Token{CASE, CLASS, ELSE, ESAC, BOOLLITERAL, BOOLLITERAL, FI, IF, IN, INHERITS, ISVOID, LET, LOOP, NEW, NOT, OF, POOL, THEN, WHILE}},
-	// {"testdata/life.cool", []Token{}},
-	{"testdata/lineno2.cool", []Token{INVALID_TOKEN, OBJECTID, STRINGLITERAL}},
-	{"testdata/lineno3.cool", []Token{PLUS, OBJECTID, TYPEID, STRINGLITERAL}},
-	{"testdata/longcomment.cool", []Token{TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, OBJECTID, TYPEID, TYPEID, OBJECTID, OBJECTID, OBJECTID, SEMICOLON, OBJECTID}},
-	{"testdata/longstring_escapedbackslashes.cool", []Token{STRINGLITERAL, STRINGLITERAL}},
-	{"testdata/multilinecomment.cool", []Token{NOT, IN, OBJECTID, OBJECTID, LPAREN, MULT, NOT, OBJECTID, OBJECTID, MULT, RPAREN}},
-	{"testdata/nestedcomment.cool", nil},
-	// {"testdata/new_complex.cool", []Token{}},
-	{"testdata/null_in_code.cl.cool", []Token{OBJECTID, OBJECTID, OBJECTID, OBJECTID, ASSIGNGT, INVALID_TOKEN, LTMINUS, RPAREN}},
-	// FAIL {"testdata/null_in_string.cl.cool", []Token{INVALID_TOKEN}},
-	// FAIL {"testdata/null_in_string_followed_by_tokens.cl.cool", []Token{INVALID_TOKEN, OBJECTID, PLUS}},
-	{"testdata/null_in_string_unescaped_newline.cl.cool", []Token{INVALID_TOKEN, OBJECTID, PLUS}},
-	// {"testdata/objectid.test.cool", []Token{}},
-	{"testdata/opencomment.cool", []Token{INVALID_TOKEN}},
-	{"testdata/operators.cool", []Token{SEMICOLON, LBRACE, RBRACE, LPAREN, COMMA, RPAREN, COLON, ATSIGN, DOT, PLUS, MINUS, MULT, DIV, TILDE, LT, ASSIGN, LTMINUS, ASSIGNGT, LTASSIGN, LT, LTASSIGN, LTASSIGN, ASSIGN, LTASSIGN, ASSIGNGT, LT, LTMINUS}},
-	// {"testdata/palindrome.cool", []Token{}},
-	{"testdata/pathologicalstrings.cool", []Token{STRINGLITERAL, STRINGLITERAL, STRINGLITERAL, STRINGLITERAL, STRINGLITERAL}},
-	{"testdata/s03.test.cool", nil},
-	{"testdata/s04.test.cool", []Token{INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL}},
-	{"testdata/s05.test.cool", []Token{STRINGLITERAL}},
-	{"testdata/s14.test.cool", []Token{OBJECTID, OBJECTID}},
-	{"testdata/s16.test.cool", []Token{INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL}},
-	{"testdata/s19.test.cool", []Token{INVALID_TOKEN, OBJECTID, INVALID_TOKEN}},
-	{"testdata/s25.test.cool", []Token{OBJECTID, OBJECTID, OBJECTID, OBJECTID, TYPEID, TYPEID, TYPEID, TYPEID}},
-	{"testdata/s26.test.cool", []Token{INTEGERLITERAL, OBJECTID}},
-	{"testdata/s31.test.cool", []Token{INVALID_TOKEN}},
-	{"testdata/s32.test.cool", []Token{INVALID_TOKEN}},
-	{"testdata/s33.test.cool", []Token{OBJECTID, INVALID_TOKEN}},
-	{"testdata/s34.test.cool", []Token{OBJECTID, INVALID_TOKEN}},
-	{"testdata/simplestrings.cool", []Token{STRINGLITERAL, STRINGLITERAL, STRINGLITERAL, STRINGLITERAL, STRINGLITERAL}},
-	// {"testdata/sort_list.cl.cool", []Token{}},
-	{"testdata/stringcomment.cool", []Token{STRINGLITERAL, STRINGLITERAL}},
-	{"testdata/stringwithescapes.cool", []Token{STRINGLITERAL, INTEGERLITERAL}},
-	{"testdata/twice_512_nested_comments.cl.cool", []Token{OBJECTID}},
-	{"testdata/validcharacters.cool", []Token{PLUS, DIV, MINUS, MULT, ASSIGN, LT, DOT, TILDE, COMMA, SEMICOLON, COLON, LPAREN, RPAREN, ATSIGN, LBRACE, RBRACE}},
-	{"testdata/weirdcharcomment.cool", []Token{OBJECTID}},
-	{"testdata/wq0607-c1.cool", []Token{STRINGLITERAL}},
-	{"testdata/wq0607-c2.cool", []Token{STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL}},
-	{"testdata/wq0607-c3.cool", []Token{STRINGLITERAL, STRINGLITERAL, INVALID_TOKEN, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL, STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN, INVALID_TOKEN}},
-	{"testdata/wq0607-c4.cool", []Token{STRINGLITERAL, MINUS, STRINGLITERAL, STRINGLITERAL, STRINGLITERAL, INVALID_TOKEN, MINUS, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL, STRINGLITERAL, STRINGLITERAL, INVALID_TOKEN, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL, STRINGLITERAL, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN, INVALID_TOKEN, STRINGLITERAL, INVALID_TOKEN}},
-	{"testdata/all_else_true.cl.cool", []Token{ELSE, ELSE, ELSE, ELSE, ELSE, ELSE, ELSE, ELSE, ELSE, ELSE, ELSE, ELSE, ELSE, ELSE, ELSE, ELSE, BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, TYPEID, TYPEID, TYPEID, TYPEID, TYPEID, TYPEID, TYPEID, TYPEID}},
+type SourceToken struct {
+	Line     int    `json:"line"`
+	Terminal Token  `json:"token"`
+	Value    string `json:"source"`
+}
+
+func TestLexerSnippets(t *testing.T) {
+	for _, tt := range testSnippets {
+		t.Run(tt.name, func(t *testing.T) {
+			got := scan(tt.source)
+			if diff := cmp.Diff(tt.tokens, got); diff != "" {
+				t.Errorf("lex mismatch (-want +got):\n%s", diff)
+			}
+		})
+	}
+}
+
+func TestLexerFiles(t *testing.T) {
+	temp, err := template.New("golden").Parse("{{.}}.lexer.gold.json")
+	if err != nil {
+		panic(err)
+	}
+	for _, sourceFileName := range testFiles {
+		t.Run(sourceFileName, func(t *testing.T) {
+			// Source
+			sourceBuf, err := ioutil.ReadFile(sourceFileName)
+			if err != nil {
+				log.Fatalln(err)
+			}
+			source := string(sourceBuf)
+			sourceTokens := scanSource(source)
+			// Golden
+			var b bytes.Buffer
+			err = temp.Execute(&b, sourceFileName)
+			if err != nil {
+				log.Fatalln(err)
+			}
+			goldFileName := b.String()
+			goldBuf, err := ioutil.ReadFile(goldFileName)
+			if err != nil {
+				log.Fatalln(err)
+			}
+			var goldTokens []SourceToken
+			err = json.Unmarshal(goldBuf, &goldTokens)
+			if err != nil {
+				log.Fatalln(err)
+			}
+			// Compare
+			if diff := cmp.Diff(goldTokens, sourceTokens); diff != "" {
+				t.Errorf("lex mismatch (-want +got):\n%s", diff)
+			}
+		})
+	}
+}
+
+func scanSource(source string) []SourceToken {
+	var lex Lexer
+	lex.Init(source)
+	var tokens []SourceToken
+	for cur := lex.Next(); cur != EOI; cur = lex.Next() {
+		tokens = append(tokens, SourceToken{lex.Line(), cur, lex.Text()})
+	}
+	return tokens
+}
+
+func scan(source string) []Token {
+	var tokens []Token
+	for _, t := range scanSource(source) {
+		tokens = append(tokens, t.Terminal)
+	}
+	return tokens
 }
 
 var testSnippets = []struct {
@@ -160,40 +166,70 @@ var testSnippets = []struct {
 	{"TokenAndInvalidPipe", "a | a", []Token{OBJECTID, INVALID_TOKEN, OBJECTID}},
 }
 
-func scan(source string) []Token {
-	var lex Lexer
-	lex.Init(source)
-	var tokens []Token
-	for cur := lex.Next(); cur != EOI; cur = lex.Next() {
-		tokens = append(tokens, cur)
-	}
-	return tokens
+var testFiles = []string{
+	"testdata/all_else_true.cl.cool",
+	"testdata/backslash.cool",
+	"testdata/backslash2.cool",
+	"testdata/badidentifiers.cool",
+	"testdata/badkeywords.cool",
+	"testdata/bothcomments.cool",
+	"testdata/comment_in_string.cl.cool",
+	"testdata/endcomment.cool",
+	"testdata/eofstring.cool",
+	"testdata/escaped_chars_in_comment.cl.cool",
+	"testdata/escapedeof.cool",
+	"testdata/escapedquote.cool",
+	"testdata/escapedunprintables.cool",
+	"testdata/integers2.cool",
+	"testdata/invalidcharacters.cool",
+	"testdata/invalidinvisible.cool",
+	"testdata/keywords.cool",
+	"testdata/lineno2.cool",
+	"testdata/lineno3.cool",
+	"testdata/longcomment.cool",
+	"testdata/longstring_escapedbackslashes.cool",
+	"testdata/multilinecomment.cool",
+	"testdata/nestedcomment.cool",
+	"testdata/null_in_code.cl.cool",
+	"testdata/null_in_string_unescaped_newline.cl.cool",
+	"testdata/opencomment.cool",
+	"testdata/operators.cool",
+	"testdata/pathologicalstrings.cool",
+	"testdata/s03.test.cool",
+	"testdata/s04.test.cool",
+	"testdata/s05.test.cool",
+	"testdata/s14.test.cool",
+	"testdata/s16.test.cool",
+	"testdata/s19.test.cool",
+	"testdata/s25.test.cool",
+	"testdata/s26.test.cool",
+	"testdata/s31.test.cool",
+	"testdata/s32.test.cool",
+	"testdata/s33.test.cool",
+	"testdata/s34.test.cool",
+	"testdata/simplestrings.cool",
+	"testdata/stringcomment.cool",
+	"testdata/stringwithescapes.cool",
+	"testdata/twice_512_nested_comments.cl.cool",
+	"testdata/validcharacters.cool",
+	"testdata/weirdcharcomment.cool",
+	"testdata/wq0607-c1.cool",
+	"testdata/wq0607-c2.cool",
+	"testdata/wq0607-c3.cool",
+	"testdata/wq0607-c4.cool",
 }
 
-func TestLexerSnippets(t *testing.T) {
-	for _, tt := range testSnippets {
-		t.Run(tt.name, func(t *testing.T) {
-			got := scan(tt.source)
-			if diff := cmp.Diff(tt.tokens, got); diff != "" {
-				t.Errorf("lex mismatch (-want +got):\n%s", diff)
-			}
-		})
-	}
-}
-
-func TestLexerFiles(t *testing.T) {
-	for _, tt := range testFiles {
-		name := path.Base(tt.file)
-		data, err := ioutil.ReadFile(tt.file)
-		if err != nil {
-			log.Fatalln(err)
-		}
-		source := string(data)
-		t.Run(name, func(t *testing.T) {
-			got := scan(source)
-			if diff := cmp.Diff(tt.tokens, got); diff != "" {
-				t.Errorf("lex mismatch (-want +got):\n%s", diff)
-			}
-		})
-	}
-}
+// TODO
+// {"testdata/arith.cool", []Token{}},
+// {"testdata/atoi.cool", []Token{}},
+// {"testdata/book_list.cl.cool", []Token{}},
+// FAIL {"testdata/escapednull.cool", []Token{INVALID_TOKEN}},
+// {"testdata/hairyscary.cool", []Token{}},
+// {"testdata/io.cool", []Token{}},
+// {"testdata/life.cool", []Token{}},
+// {"testdata/new_complex.cool", []Token{}},
+// FAIL {"testdata/null_in_string.cl.cool", []Token{INVALID_TOKEN}},
+// FAIL {"testdata/null_in_string_followed_by_tokens.cl.cool", []Token{INVALID_TOKEN, OBJECTID, PLUS}},
+// {"testdata/objectid.test.cool", []Token{}},
+// {"testdata/palindrome.cool", []Token{}},
+// {"testdata/sort_list.cl.cool", []Token{}},

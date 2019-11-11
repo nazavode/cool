@@ -1,0 +1,137 @@
+[
+	{
+		"line": 2,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 2,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 2,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 2,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 2,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 2,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 2,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 2,
+		"token": 39,
+		"source": "@"
+	},
+	{
+		"line": 2,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 2,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 2,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 2,
+		"token": 42,
+		"source": "*"
+	},
+	{
+		"line": 2,
+		"token": 43,
+		"source": "/"
+	},
+	{
+		"line": 2,
+		"token": 45,
+		"source": "~"
+	},
+	{
+		"line": 2,
+		"token": 36,
+		"source": "\u003c"
+	},
+	{
+		"line": 2,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 2,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 2,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 2,
+		"token": 37,
+		"source": "\u003c="
+	},
+	{
+		"line": 5,
+		"token": 36,
+		"source": "\u003c"
+	},
+	{
+		"line": 5,
+		"token": 37,
+		"source": "\u003c="
+	},
+	{
+		"line": 8,
+		"token": 37,
+		"source": "\u003c="
+	},
+	{
+		"line": 8,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 11,
+		"token": 37,
+		"source": "\u003c="
+	},
+	{
+		"line": 11,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 13,
+		"token": 36,
+		"source": "\u003c"
+	},
+	{
+		"line": 13,
+		"token": 44,
+		"source": "\u003c-"
+	}
+]

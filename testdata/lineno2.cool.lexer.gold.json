@@ -1,0 +1,17 @@
+[
+	{
+		"line": 5,
+		"token": 1,
+		"source": "!"
+	},
+	{
+		"line": 6,
+		"token": 7,
+		"source": "fjdk"
+	},
+	{
+		"line": 7,
+		"token": 11,
+		"source": "\"\""
+	}
+]

@@ -1,0 +1,97 @@
+[
+	{
+		"line": 1,
+		"token": 24,
+		"source": "case"
+	},
+	{
+		"line": 2,
+		"token": 12,
+		"source": "CLASS"
+	},
+	{
+		"line": 3,
+		"token": 13,
+		"source": "ElSe"
+	},
+	{
+		"line": 4,
+		"token": 25,
+		"source": "eSaC"
+	},
+	{
+		"line": 5,
+		"token": 10,
+		"source": "fALSE"
+	},
+	{
+		"line": 6,
+		"token": 10,
+		"source": "trUE"
+	},
+	{
+		"line": 7,
+		"token": 15,
+		"source": "FI"
+	},
+	{
+		"line": 8,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 9,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 10,
+		"token": 17,
+		"source": "iNHerITs"
+	},
+	{
+		"line": 11,
+		"token": 18,
+		"source": "IsvoiD"
+	},
+	{
+		"line": 12,
+		"token": 19,
+		"source": "lEt"
+	},
+	{
+		"line": 13,
+		"token": 20,
+		"source": "LOOp"
+	},
+	{
+		"line": 14,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 15,
+		"token": 28,
+		"source": "NOT"
+	},
+	{
+		"line": 16,
+		"token": 27,
+		"source": "of"
+	},
+	{
+		"line": 17,
+		"token": 21,
+		"source": "PoOl"
+	},
+	{
+		"line": 18,
+		"token": 22,
+		"source": "ThEn"
+	},
+	{
+		"line": 19,
+		"token": 23,
+		"source": "whIle"
+	}
+]

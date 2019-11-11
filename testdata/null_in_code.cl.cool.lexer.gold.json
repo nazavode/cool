@@ -1,0 +1,42 @@
+[
+	{
+		"line": 2,
+		"token": 7,
+		"source": "null"
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "character"
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "is"
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "here"
+	},
+	{
+		"line": 2,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 2,
+		"token": 1,
+		"source": "\u0000"
+	},
+	{
+		"line": 2,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 3,
+		"token": 32,
+		"source": ")"
+	}
+]

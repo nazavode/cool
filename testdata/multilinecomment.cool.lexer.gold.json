@@ -1,0 +1,57 @@
+[
+	{
+		"line": 3,
+		"token": 28,
+		"source": "not"
+	},
+	{
+		"line": 3,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 3,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 3,
+		"token": 7,
+		"source": "comment"
+	},
+	{
+		"line": 10,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 10,
+		"token": 42,
+		"source": "*"
+	},
+	{
+		"line": 10,
+		"token": 28,
+		"source": "not"
+	},
+	{
+		"line": 10,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 10,
+		"token": 7,
+		"source": "comment"
+	},
+	{
+		"line": 10,
+		"token": 42,
+		"source": "*"
+	},
+	{
+		"line": 10,
+		"token": 32,
+		"source": ")"
+	}
+]

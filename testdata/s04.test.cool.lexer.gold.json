@@ -1,0 +1,32 @@
+[
+	{
+		"line": 2,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 4,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 6,
+		"token": 9,
+		"source": "2"
+	},
+	{
+		"line": 8,
+		"token": 9,
+		"source": "3"
+	},
+	{
+		"line": 10,
+		"token": 9,
+		"source": "4"
+	},
+	{
+		"line": 12,
+		"token": 9,
+		"source": "5"
+	}
+]

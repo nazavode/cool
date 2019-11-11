@@ -1,0 +1,17 @@
+[
+	{
+		"line": 1,
+		"token": 11,
+		"source": "\"string (* 123 *) string\""
+	},
+	{
+		"line": 2,
+		"token": 11,
+		"source": "\"string \\\n(* 123 *)\""
+	},
+	{
+		"line": 4,
+		"token": 11,
+		"source": "\"string (* \\\n123 *)\""
+	}
+]

@@ -1,0 +1,147 @@
+[
+	{
+		"line": 3,
+		"token": 11,
+		"source": "\"\\\\-\""
+	},
+	{
+		"line": 3,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 3,
+		"token": 11,
+		"source": "\"-\\-\""
+	},
+	{
+		"line": 4,
+		"token": 11,
+		"source": "\"\\\\\""
+	},
+	{
+		"line": 4,
+		"token": 11,
+		"source": "\"\\\"--\\\"\""
+	},
+	{
+		"line": 4,
+		"token": 1,
+		"source": "\\"
+	},
+	{
+		"line": 4,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 4,
+		"token": 1,
+		"source": "\\"
+	},
+	{
+		"line": 4,
+		"token": 11,
+		"source": "\"\""
+	},
+	{
+		"line": 4,
+		"token": 1,
+		"source": "\\"
+	},
+	{
+		"line": 4,
+		"token": 11,
+		"source": "\"--\\\\\""
+	},
+	{
+		"line": 4,
+		"token": 1,
+		"source": "\\"
+	},
+	{
+		"line": 4,
+		"token": 11,
+		"source": "\"\\\\\""
+	},
+	{
+		"line": 5,
+		"token": 11,
+		"source": "\"\\\\\""
+	},
+	{
+		"line": 5,
+		"token": 11,
+		"source": "\"\\\"--\\\"\""
+	},
+	{
+		"line": 5,
+		"token": 1,
+		"source": "\\"
+	},
+	{
+		"line": 5,
+		"token": 1,
+		"source": "\\"
+	},
+	{
+		"line": 5,
+		"token": 11,
+		"source": "\"\""
+	},
+	{
+		"line": 5,
+		"token": 1,
+		"source": "\\"
+	},
+	{
+		"line": 5,
+		"token": 11,
+		"source": "\"--\\\\\""
+	},
+	{
+		"line": 5,
+		"token": 1,
+		"source": "\\"
+	},
+	{
+		"line": 5,
+		"token": 11,
+		"source": "\"\\\\\""
+	},
+	{
+		"line": 5,
+		"token": 11,
+		"source": "\"--\""
+	},
+	{
+		"line": 5,
+		"token": 1,
+		"source": "\\"
+	},
+	{
+		"line": 5,
+		"token": 11,
+		"source": "\"\\\"\""
+	},
+	{
+		"line": 5,
+		"token": 1,
+		"source": "\\"
+	},
+	{
+		"line": 5,
+		"token": 1,
+		"source": "\""
+	},
+	{
+		"line": 6,
+		"token": 11,
+		"source": "\"\\-\\\"\""
+	},
+	{
+		"line": 6,
+		"token": 1,
+		"source": "\\"
+	}
+]

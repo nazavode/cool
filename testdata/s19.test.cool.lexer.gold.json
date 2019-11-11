@@ -1,0 +1,17 @@
+[
+	{
+		"line": 2,
+		"token": 1,
+		"source": "\"c"
+	},
+	{
+		"line": 3,
+		"token": 7,
+		"source": "d"
+	},
+	{
+		"line": 3,
+		"token": 1,
+		"source": "\""
+	}
+]

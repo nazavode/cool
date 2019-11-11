@@ -1,0 +1,12 @@
+[
+	{
+		"line": 1,
+		"token": 11,
+		"source": "\"This is a string--and it's still a string\""
+	},
+	{
+		"line": 4,
+		"token": 11,
+		"source": "\"(* not a comment *)\""
+	}
+]

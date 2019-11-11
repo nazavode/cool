@@ -1,0 +1,57 @@
+[
+	{
+		"line": 2,
+		"token": 7,
+		"source": "what"
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "the"
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "programmer"
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "thought"
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "it"
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "was"
+	},
+	{
+		"line": 2,
+		"token": 1,
+		"source": "*)"
+	},
+	{
+		"line": 3,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 4,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 4,
+		"token": 9,
+		"source": "5"
+	},
+	{
+		"line": 4,
+		"token": 22,
+		"source": "then"
+	}
+]

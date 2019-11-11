@@ -1,0 +1,32 @@
+[
+	{
+		"line": 1,
+		"token": 7,
+		"source": "g"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "\u0001"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "\u0002"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "\u0003"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "\u0004"
+	},
+	{
+		"line": 1,
+		"token": 7,
+		"source": "h"
+	}
+]

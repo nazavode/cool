@@ -1,0 +1,27 @@
+[
+	{
+		"line": 1,
+		"token": 11,
+		"source": "\"this is a string\""
+	},
+	{
+		"line": 1,
+		"token": 11,
+		"source": "\"so is this\""
+	},
+	{
+		"line": 2,
+		"token": 11,
+		"source": "\"one more string\""
+	},
+	{
+		"line": 4,
+		"token": 11,
+		"source": "\"strings can have keywords inside: if else case\""
+	},
+	{
+		"line": 5,
+		"token": 11,
+		"source": "\"!@#$%^\u0026*()_+1234567890-=\tjustanother string   \""
+	}
+]

@@ -1,0 +1,72 @@
+[
+	{
+		"line": 1,
+		"token": 1,
+		"source": "!"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "#"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "$"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "%"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "^"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "\u0026"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "\u003e"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "?"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "`"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "["
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "]"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "\\"
+	},
+	{
+		"line": 1,
+		"token": 1,
+		"source": "|"
+	}
+]

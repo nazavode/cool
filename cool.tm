@@ -59,7 +59,7 @@ TypeId  : /[A-Z][_\w]*/ -1
 # Literals
 IntegerLiteral: /\d+/
 BoolLiteral   : /t{R}{U}{E}|f{A}{L}{S}{E}/
-StringLiteral : /"([^"\n\\]|\\[\\nbtf\n])*"/
+StringLiteral : /"([^"\n\\]|\\[\S\n])*"/
 
 # Keywords (case insensitive)
 class   : /{C}{L}{A}{S}{S}/

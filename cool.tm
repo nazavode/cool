@@ -13,7 +13,6 @@ package = "github.com/nazavode/cool"
 %x inComment;
 
 invalid_token:
-error:
 
 invalid_token: /\x00/
 

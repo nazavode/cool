@@ -1,0 +1,292 @@
+[
+	{
+		"line": 1,
+		"token": 7,
+		"source": "quasar"
+	},
+	{
+		"line": 2,
+		"token": 8,
+		"source": "Quasar"
+	},
+	{
+		"line": 3,
+		"token": 7,
+		"source": "q__uasar"
+	},
+	{
+		"line": 4,
+		"token": 7,
+		"source": "q__uasar__"
+	},
+	{
+		"line": 5,
+		"token": 8,
+		"source": "Q__uasar"
+	},
+	{
+		"line": 6,
+		"token": 8,
+		"source": "Q_uasar___"
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "q_23_ads"
+	},
+	{
+		"line": 8,
+		"token": 7,
+		"source": "q__23__ads"
+	},
+	{
+		"line": 9,
+		"token": 8,
+		"source": "Q_23_ads"
+	},
+	{
+		"line": 10,
+		"token": 8,
+		"source": "Q_23ADS"
+	},
+	{
+		"line": 11,
+		"token": 9,
+		"source": "33"
+	},
+	{
+		"line": 11,
+		"token": 7,
+		"source": "fjsjs"
+	},
+	{
+		"line": 12,
+		"token": 9,
+		"source": "34"
+	},
+	{
+		"line": 12,
+		"token": 7,
+		"source": "jjkljkl"
+	},
+	{
+		"line": 13,
+		"token": 7,
+		"source": "f3243f"
+	},
+	{
+		"line": 14,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 14,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 14,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 14,
+		"token": 9,
+		"source": "23432"
+	},
+	{
+		"line": 15,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 15,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 15,
+		"token": 7,
+		"source": "fedfj"
+	},
+	{
+		"line": 16,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 16,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 16,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 16,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 16,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 16,
+		"token": 9,
+		"source": "3232"
+	},
+	{
+		"line": 16,
+		"token": 8,
+		"source": "FFFFF____"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "quasar"
+	},
+	{
+		"line": 18,
+		"token": 8,
+		"source": "Quasar"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "q__uasar"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "q__uasar__"
+	},
+	{
+		"line": 18,
+		"token": 8,
+		"source": "Q__uasar"
+	},
+	{
+		"line": 18,
+		"token": 8,
+		"source": "Q_uasar___"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "q_23_ads"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "q__23__ads"
+	},
+	{
+		"line": 18,
+		"token": 8,
+		"source": "Q_23_ads"
+	},
+	{
+		"line": 18,
+		"token": 8,
+		"source": "Q_23ADS"
+	},
+	{
+		"line": 18,
+		"token": 9,
+		"source": "33"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "fjsjs"
+	},
+	{
+		"line": 18,
+		"token": 9,
+		"source": "34"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "jjkljkl"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "f3243f"
+	},
+	{
+		"line": 18,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 18,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 18,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 18,
+		"token": 9,
+		"source": "23432"
+	},
+	{
+		"line": 18,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 18,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "fedfj"
+	},
+	{
+		"line": 18,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 18,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 18,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 18,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 18,
+		"token": 1,
+		"source": "_"
+	},
+	{
+		"line": 18,
+		"token": 9,
+		"source": "3232"
+	},
+	{
+		"line": 18,
+		"token": 8,
+		"source": "FFFFF____"
+	}
+]

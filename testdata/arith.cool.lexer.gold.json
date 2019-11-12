@@ -1,0 +1,9292 @@
+[
+	{
+		"line": 7,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 7,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 7,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 9,
+		"token": 7,
+		"source": "var"
+	},
+	{
+		"line": 9,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 9,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 9,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 9,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 9,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 11,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 11,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 11,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 11,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 11,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 11,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 11,
+		"token": 7,
+		"source": "var"
+	},
+	{
+		"line": 11,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 11,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 13,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 13,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 13,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 13,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 13,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 13,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 13,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 13,
+		"token": 8,
+		"source": "SELF_TYPE"
+	},
+	{
+		"line": 13,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 14,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 15,
+		"token": 7,
+		"source": "var"
+	},
+	{
+		"line": 15,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 15,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 15,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 16,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 16,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 17,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 18,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 18,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 20,
+		"token": 7,
+		"source": "method1"
+	},
+	{
+		"line": 20,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 20,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 20,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 20,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 20,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 20,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 20,
+		"token": 8,
+		"source": "SELF_TYPE"
+	},
+	{
+		"line": 20,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 21,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 22,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 22,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 24,
+		"token": 7,
+		"source": "method2"
+	},
+	{
+		"line": 24,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 24,
+		"token": 7,
+		"source": "num1"
+	},
+	{
+		"line": 24,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 24,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 24,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 24,
+		"token": 7,
+		"source": "num2"
+	},
+	{
+		"line": 24,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 24,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 24,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 24,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 24,
+		"token": 8,
+		"source": "B"
+	},
+	{
+		"line": 24,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 25,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 25,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 25,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 25,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 25,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 25,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 26,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 27,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 27,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 27,
+		"token": 7,
+		"source": "num1"
+	},
+	{
+		"line": 27,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 27,
+		"token": 7,
+		"source": "num2"
+	},
+	{
+		"line": 27,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 28,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 28,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 28,
+		"token": 8,
+		"source": "B"
+	},
+	{
+		"line": 28,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 28,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 28,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 28,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 28,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 28,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 28,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 29,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 30,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 31,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 31,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 33,
+		"token": 7,
+		"source": "method3"
+	},
+	{
+		"line": 33,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 33,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 33,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 33,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 33,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 33,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 33,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 33,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 34,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 34,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 34,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 34,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 34,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 34,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 35,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 36,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 36,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 36,
+		"token": 45,
+		"source": "~"
+	},
+	{
+		"line": 36,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 36,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 37,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 37,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 37,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 37,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 37,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 37,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 37,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 37,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 37,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 37,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 38,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 39,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 40,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 40,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 42,
+		"token": 7,
+		"source": "method4"
+	},
+	{
+		"line": 42,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 42,
+		"token": 7,
+		"source": "num1"
+	},
+	{
+		"line": 42,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 42,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 42,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 42,
+		"token": 7,
+		"source": "num2"
+	},
+	{
+		"line": 42,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 42,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 42,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 42,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 42,
+		"token": 8,
+		"source": "D"
+	},
+	{
+		"line": 42,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 43,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 43,
+		"token": 7,
+		"source": "num2"
+	},
+	{
+		"line": 43,
+		"token": 36,
+		"source": "\u003c"
+	},
+	{
+		"line": 43,
+		"token": 7,
+		"source": "num1"
+	},
+	{
+		"line": 43,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 44,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 44,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 44,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 44,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 44,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 44,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 45,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 46,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 46,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 46,
+		"token": 7,
+		"source": "num1"
+	},
+	{
+		"line": 46,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 46,
+		"token": 7,
+		"source": "num2"
+	},
+	{
+		"line": 46,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 47,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 47,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 47,
+		"token": 8,
+		"source": "D"
+	},
+	{
+		"line": 47,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 47,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 47,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 47,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 47,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 47,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 47,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 48,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 49,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 50,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 51,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 51,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 51,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 51,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 51,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 51,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 52,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 53,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 53,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 53,
+		"token": 7,
+		"source": "num2"
+	},
+	{
+		"line": 53,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 53,
+		"token": 7,
+		"source": "num1"
+	},
+	{
+		"line": 53,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 54,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 54,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 54,
+		"token": 8,
+		"source": "D"
+	},
+	{
+		"line": 54,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 54,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 54,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 54,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 54,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 54,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 54,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 55,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 56,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 57,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 58,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 58,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 60,
+		"token": 7,
+		"source": "method5"
+	},
+	{
+		"line": 60,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 60,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 60,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 60,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 60,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 60,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 60,
+		"token": 8,
+		"source": "E"
+	},
+	{
+		"line": 60,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 61,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 61,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 61,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 61,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 61,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 61,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 61,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 61,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 62,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 63,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 63,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 63,
+		"token": 7,
+		"source": "y"
+	},
+	{
+		"line": 63,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 63,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 63,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 63,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 63,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 64,
+		"token": 23,
+		"source": "while"
+	},
+	{
+		"line": 64,
+		"token": 7,
+		"source": "y"
+	},
+	{
+		"line": 64,
+		"token": 37,
+		"source": "\u003c="
+	},
+	{
+		"line": 64,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 64,
+		"token": 20,
+		"source": "loop"
+	},
+	{
+		"line": 65,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 66,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 66,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 66,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 66,
+		"token": 42,
+		"source": "*"
+	},
+	{
+		"line": 66,
+		"token": 7,
+		"source": "y"
+	},
+	{
+		"line": 66,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 67,
+		"token": 7,
+		"source": "y"
+	},
+	{
+		"line": 67,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 67,
+		"token": 7,
+		"source": "y"
+	},
+	{
+		"line": 67,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 67,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 67,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 68,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 69,
+		"token": 21,
+		"source": "pool"
+	},
+	{
+		"line": 70,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 70,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 71,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 71,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 71,
+		"token": 8,
+		"source": "E"
+	},
+	{
+		"line": 71,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 71,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 71,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 71,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 71,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 71,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 71,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 72,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 73,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 74,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 74,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 76,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 76,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 78,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 78,
+		"token": 8,
+		"source": "B"
+	},
+	{
+		"line": 78,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 78,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 78,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 80,
+		"token": 7,
+		"source": "method5"
+	},
+	{
+		"line": 80,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 80,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 80,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 80,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 80,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 80,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 80,
+		"token": 8,
+		"source": "E"
+	},
+	{
+		"line": 80,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 81,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 81,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 81,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 81,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 81,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 81,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 82,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 83,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 83,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 83,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 83,
+		"token": 42,
+		"source": "*"
+	},
+	{
+		"line": 83,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 83,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 84,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 84,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 84,
+		"token": 8,
+		"source": "E"
+	},
+	{
+		"line": 84,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 84,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 84,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 84,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 84,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 84,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 84,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 85,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 86,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 87,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 87,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 89,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 89,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 91,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 91,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 91,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 91,
+		"token": 8,
+		"source": "B"
+	},
+	{
+		"line": 91,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 93,
+		"token": 7,
+		"source": "method6"
+	},
+	{
+		"line": 93,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 93,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 93,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 93,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 93,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 93,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 93,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 93,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 94,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 94,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 94,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 94,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 94,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 94,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 95,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 96,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 96,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 96,
+		"token": 45,
+		"source": "~"
+	},
+	{
+		"line": 96,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 96,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 97,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 97,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 97,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 97,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 97,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 97,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 97,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 97,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 97,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 97,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 98,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 99,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 100,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 100,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 102,
+		"token": 7,
+		"source": "method5"
+	},
+	{
+		"line": 102,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 102,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 102,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 102,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 102,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 102,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 102,
+		"token": 8,
+		"source": "E"
+	},
+	{
+		"line": 102,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 103,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 103,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 103,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 103,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 103,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 103,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 104,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 105,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 105,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 105,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 105,
+		"token": 42,
+		"source": "*"
+	},
+	{
+		"line": 105,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 105,
+		"token": 42,
+		"source": "*"
+	},
+	{
+		"line": 105,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 105,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 106,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 106,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 106,
+		"token": 8,
+		"source": "E"
+	},
+	{
+		"line": 106,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 106,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 106,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 106,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 106,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 106,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 106,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 107,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 108,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 109,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 109,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 111,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 111,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 113,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 113,
+		"token": 8,
+		"source": "D"
+	},
+	{
+		"line": 113,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 113,
+		"token": 8,
+		"source": "B"
+	},
+	{
+		"line": 113,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 115,
+		"token": 7,
+		"source": "method7"
+	},
+	{
+		"line": 115,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 115,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 115,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 115,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 115,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 115,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 115,
+		"token": 8,
+		"source": "Bool"
+	},
+	{
+		"line": 115,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 116,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 116,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 116,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 116,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 116,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 116,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 116,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 116,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 117,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 117,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 117,
+		"token": 36,
+		"source": "\u003c"
+	},
+	{
+		"line": 117,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 117,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 117,
+		"token": 7,
+		"source": "method7"
+	},
+	{
+		"line": 117,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 117,
+		"token": 45,
+		"source": "~"
+	},
+	{
+		"line": 117,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 117,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 117,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 118,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 118,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 118,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 118,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 118,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 118,
+		"token": 10,
+		"source": "true"
+	},
+	{
+		"line": 118,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 119,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 119,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 119,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 119,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 119,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 119,
+		"token": 10,
+		"source": "false"
+	},
+	{
+		"line": 119,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 120,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 120,
+		"token": 9,
+		"source": "2"
+	},
+	{
+		"line": 120,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 120,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 120,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 120,
+		"token": 10,
+		"source": "false"
+	},
+	{
+		"line": 120,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 121,
+		"token": 7,
+		"source": "method7"
+	},
+	{
+		"line": 121,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 121,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 121,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 121,
+		"token": 9,
+		"source": "3"
+	},
+	{
+		"line": 121,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 122,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 122,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 122,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 122,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 123,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 124,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 124,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 126,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 126,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 128,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 128,
+		"token": 8,
+		"source": "E"
+	},
+	{
+		"line": 128,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 128,
+		"token": 8,
+		"source": "D"
+	},
+	{
+		"line": 128,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 130,
+		"token": 7,
+		"source": "method6"
+	},
+	{
+		"line": 130,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 130,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 130,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 130,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 130,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 130,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 130,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 130,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 131,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 131,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 131,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 131,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 131,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 131,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 132,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 133,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 133,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 133,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 133,
+		"token": 43,
+		"source": "/"
+	},
+	{
+		"line": 133,
+		"token": 9,
+		"source": "8"
+	},
+	{
+		"line": 133,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 134,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 134,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 134,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 134,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 134,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 134,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 134,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 134,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 134,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 134,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 135,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 136,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 137,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 137,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 139,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 139,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 155,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 155,
+		"token": 8,
+		"source": "A2I"
+	},
+	{
+		"line": 155,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 157,
+		"token": 7,
+		"source": "c2i"
+	},
+	{
+		"line": 157,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 157,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 157,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 157,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 157,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 157,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 157,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 157,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 158,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 158,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 158,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 158,
+		"token": 11,
+		"source": "\"0\""
+	},
+	{
+		"line": 158,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 158,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 158,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 159,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 159,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 159,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 159,
+		"token": 11,
+		"source": "\"1\""
+	},
+	{
+		"line": 159,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 159,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 159,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 160,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 160,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 160,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 160,
+		"token": 11,
+		"source": "\"2\""
+	},
+	{
+		"line": 160,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 160,
+		"token": 9,
+		"source": "2"
+	},
+	{
+		"line": 160,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 161,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 161,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 161,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 161,
+		"token": 11,
+		"source": "\"3\""
+	},
+	{
+		"line": 161,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 161,
+		"token": 9,
+		"source": "3"
+	},
+	{
+		"line": 161,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 162,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 162,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 162,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 162,
+		"token": 11,
+		"source": "\"4\""
+	},
+	{
+		"line": 162,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 162,
+		"token": 9,
+		"source": "4"
+	},
+	{
+		"line": 162,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 163,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 163,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 163,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 163,
+		"token": 11,
+		"source": "\"5\""
+	},
+	{
+		"line": 163,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 163,
+		"token": 9,
+		"source": "5"
+	},
+	{
+		"line": 163,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 164,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 164,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 164,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 164,
+		"token": 11,
+		"source": "\"6\""
+	},
+	{
+		"line": 164,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 164,
+		"token": 9,
+		"source": "6"
+	},
+	{
+		"line": 164,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 165,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 165,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 165,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 165,
+		"token": 11,
+		"source": "\"7\""
+	},
+	{
+		"line": 165,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 165,
+		"token": 9,
+		"source": "7"
+	},
+	{
+		"line": 165,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 166,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 166,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 166,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 166,
+		"token": 11,
+		"source": "\"8\""
+	},
+	{
+		"line": 166,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 166,
+		"token": 9,
+		"source": "8"
+	},
+	{
+		"line": 166,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 167,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 167,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 167,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 167,
+		"token": 11,
+		"source": "\"9\""
+	},
+	{
+		"line": 167,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 167,
+		"token": 9,
+		"source": "9"
+	},
+	{
+		"line": 167,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 168,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 168,
+		"token": 7,
+		"source": "abort"
+	},
+	{
+		"line": 168,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 168,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 168,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 168,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 168,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 168,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 170,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 170,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 170,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 170,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 170,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 170,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 170,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 170,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 170,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 170,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 171,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 171,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 176,
+		"token": 7,
+		"source": "i2c"
+	},
+	{
+		"line": 176,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 176,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 176,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 176,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 176,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 176,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 176,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 176,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 177,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 177,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 177,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 177,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 177,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 177,
+		"token": 11,
+		"source": "\"0\""
+	},
+	{
+		"line": 177,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 178,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 178,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 178,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 178,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 178,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 178,
+		"token": 11,
+		"source": "\"1\""
+	},
+	{
+		"line": 178,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 179,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 179,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 179,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 179,
+		"token": 9,
+		"source": "2"
+	},
+	{
+		"line": 179,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 179,
+		"token": 11,
+		"source": "\"2\""
+	},
+	{
+		"line": 179,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 180,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 180,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 180,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 180,
+		"token": 9,
+		"source": "3"
+	},
+	{
+		"line": 180,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 180,
+		"token": 11,
+		"source": "\"3\""
+	},
+	{
+		"line": 180,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 181,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 181,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 181,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 181,
+		"token": 9,
+		"source": "4"
+	},
+	{
+		"line": 181,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 181,
+		"token": 11,
+		"source": "\"4\""
+	},
+	{
+		"line": 181,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 182,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 182,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 182,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 182,
+		"token": 9,
+		"source": "5"
+	},
+	{
+		"line": 182,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 182,
+		"token": 11,
+		"source": "\"5\""
+	},
+	{
+		"line": 182,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 183,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 183,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 183,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 183,
+		"token": 9,
+		"source": "6"
+	},
+	{
+		"line": 183,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 183,
+		"token": 11,
+		"source": "\"6\""
+	},
+	{
+		"line": 183,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 184,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 184,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 184,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 184,
+		"token": 9,
+		"source": "7"
+	},
+	{
+		"line": 184,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 184,
+		"token": 11,
+		"source": "\"7\""
+	},
+	{
+		"line": 184,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 185,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 185,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 185,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 185,
+		"token": 9,
+		"source": "8"
+	},
+	{
+		"line": 185,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 185,
+		"token": 11,
+		"source": "\"8\""
+	},
+	{
+		"line": 185,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 186,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 186,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 186,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 186,
+		"token": 9,
+		"source": "9"
+	},
+	{
+		"line": 186,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 186,
+		"token": 11,
+		"source": "\"9\""
+	},
+	{
+		"line": 186,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 187,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 187,
+		"token": 7,
+		"source": "abort"
+	},
+	{
+		"line": 187,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 187,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 187,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 187,
+		"token": 11,
+		"source": "\"\""
+	},
+	{
+		"line": 187,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 187,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 188,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 188,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 188,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 188,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 188,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 188,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 188,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 188,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 188,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 188,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 189,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 189,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 199,
+		"token": 7,
+		"source": "a2i"
+	},
+	{
+		"line": 199,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 199,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 199,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 199,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 199,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 199,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 199,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 199,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 200,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 200,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 200,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 200,
+		"token": 7,
+		"source": "length"
+	},
+	{
+		"line": 200,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 200,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 200,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 200,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 200,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 200,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 200,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 201,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 201,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 201,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 201,
+		"token": 7,
+		"source": "substr"
+	},
+	{
+		"line": 201,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 201,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 201,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 201,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 201,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 201,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 201,
+		"token": 11,
+		"source": "\"-\""
+	},
+	{
+		"line": 201,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 201,
+		"token": 45,
+		"source": "~"
+	},
+	{
+		"line": 201,
+		"token": 7,
+		"source": "a2i_aux"
+	},
+	{
+		"line": 201,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 201,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 201,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 201,
+		"token": 7,
+		"source": "substr"
+	},
+	{
+		"line": 201,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 201,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 201,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 201,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 201,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 201,
+		"token": 7,
+		"source": "length"
+	},
+	{
+		"line": 201,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 201,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 201,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 201,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 201,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 201,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 201,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 202,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 202,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 202,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 202,
+		"token": 7,
+		"source": "substr"
+	},
+	{
+		"line": 202,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 202,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 202,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 202,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 202,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 202,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 202,
+		"token": 11,
+		"source": "\"+\""
+	},
+	{
+		"line": 202,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 202,
+		"token": 7,
+		"source": "a2i_aux"
+	},
+	{
+		"line": 202,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 202,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 202,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 202,
+		"token": 7,
+		"source": "substr"
+	},
+	{
+		"line": 202,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 202,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 202,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 202,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 202,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 202,
+		"token": 7,
+		"source": "length"
+	},
+	{
+		"line": 202,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 202,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 202,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 202,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 202,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 202,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 202,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 203,
+		"token": 7,
+		"source": "a2i_aux"
+	},
+	{
+		"line": 203,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 203,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 203,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 204,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 204,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 204,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 205,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 205,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 211,
+		"token": 7,
+		"source": "a2i_aux"
+	},
+	{
+		"line": 211,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 211,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 211,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 211,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 211,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 211,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 211,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 211,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 212,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 212,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 212,
+		"token": 7,
+		"source": "int"
+	},
+	{
+		"line": 212,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 212,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 212,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 212,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 212,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 213,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 214,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 214,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 214,
+		"token": 7,
+		"source": "j"
+	},
+	{
+		"line": 214,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 214,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 214,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 214,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 214,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 214,
+		"token": 7,
+		"source": "length"
+	},
+	{
+		"line": 214,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 214,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 214,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 215,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 215,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 215,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 215,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 215,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 215,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 215,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 215,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 216,
+		"token": 23,
+		"source": "while"
+	},
+	{
+		"line": 216,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 216,
+		"token": 36,
+		"source": "\u003c"
+	},
+	{
+		"line": 216,
+		"token": 7,
+		"source": "j"
+	},
+	{
+		"line": 216,
+		"token": 20,
+		"source": "loop"
+	},
+	{
+		"line": 217,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 218,
+		"token": 7,
+		"source": "int"
+	},
+	{
+		"line": 218,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 218,
+		"token": 7,
+		"source": "int"
+	},
+	{
+		"line": 218,
+		"token": 42,
+		"source": "*"
+	},
+	{
+		"line": 218,
+		"token": 9,
+		"source": "10"
+	},
+	{
+		"line": 218,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 218,
+		"token": 7,
+		"source": "c2i"
+	},
+	{
+		"line": 218,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 218,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 218,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 218,
+		"token": 7,
+		"source": "substr"
+	},
+	{
+		"line": 218,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 218,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 218,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 218,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 218,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 218,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 218,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 219,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 219,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 219,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 219,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 219,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 219,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 220,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 221,
+		"token": 21,
+		"source": "pool"
+	},
+	{
+		"line": 222,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 223,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 223,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 224,
+		"token": 7,
+		"source": "int"
+	},
+	{
+		"line": 224,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 225,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 226,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 227,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 227,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 232,
+		"token": 7,
+		"source": "i2a"
+	},
+	{
+		"line": 232,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 232,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 232,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 232,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 232,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 232,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 232,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 232,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 233,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 233,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 233,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 233,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 233,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 233,
+		"token": 11,
+		"source": "\"0\""
+	},
+	{
+		"line": 233,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 234,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 234,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 234,
+		"token": 36,
+		"source": "\u003c"
+	},
+	{
+		"line": 234,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 234,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 234,
+		"token": 7,
+		"source": "i2a_aux"
+	},
+	{
+		"line": 234,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 234,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 234,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 234,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 235,
+		"token": 11,
+		"source": "\"-\""
+	},
+	{
+		"line": 235,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 235,
+		"token": 7,
+		"source": "concat"
+	},
+	{
+		"line": 235,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 235,
+		"token": 7,
+		"source": "i2a_aux"
+	},
+	{
+		"line": 235,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 235,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 235,
+		"token": 42,
+		"source": "*"
+	},
+	{
+		"line": 235,
+		"token": 45,
+		"source": "~"
+	},
+	{
+		"line": 235,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 235,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 235,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 236,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 236,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 237,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 237,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 241,
+		"token": 7,
+		"source": "i2a_aux"
+	},
+	{
+		"line": 241,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 241,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 241,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 241,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 241,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 241,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 241,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 241,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 242,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 242,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 242,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 242,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 242,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 242,
+		"token": 11,
+		"source": "\"\""
+	},
+	{
+		"line": 242,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 243,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 243,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 243,
+		"token": 7,
+		"source": "next"
+	},
+	{
+		"line": 243,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 243,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 243,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 243,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 243,
+		"token": 43,
+		"source": "/"
+	},
+	{
+		"line": 243,
+		"token": 9,
+		"source": "10"
+	},
+	{
+		"line": 243,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 244,
+		"token": 7,
+		"source": "i2a_aux"
+	},
+	{
+		"line": 244,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 244,
+		"token": 7,
+		"source": "next"
+	},
+	{
+		"line": 244,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 244,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 244,
+		"token": 7,
+		"source": "concat"
+	},
+	{
+		"line": 244,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 244,
+		"token": 7,
+		"source": "i2c"
+	},
+	{
+		"line": 244,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 244,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 244,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 244,
+		"token": 7,
+		"source": "next"
+	},
+	{
+		"line": 244,
+		"token": 42,
+		"source": "*"
+	},
+	{
+		"line": 244,
+		"token": 9,
+		"source": "10"
+	},
+	{
+		"line": 244,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 244,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 245,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 246,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 247,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 247,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 249,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 249,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 251,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 251,
+		"token": 8,
+		"source": "Main"
+	},
+	{
+		"line": 251,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 251,
+		"token": 8,
+		"source": "IO"
+	},
+	{
+		"line": 251,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 253,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 253,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 253,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 253,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 254,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 254,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 254,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 254,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 255,
+		"token": 7,
+		"source": "a_var"
+	},
+	{
+		"line": 255,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 255,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 255,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 256,
+		"token": 7,
+		"source": "flag"
+	},
+	{
+		"line": 256,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 256,
+		"token": 8,
+		"source": "Bool"
+	},
+	{
+		"line": 256,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 256,
+		"token": 10,
+		"source": "true"
+	},
+	{
+		"line": 256,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 259,
+		"token": 7,
+		"source": "menu"
+	},
+	{
+		"line": 259,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 259,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 259,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 259,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 259,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 260,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 261,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 261,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 261,
+		"token": 11,
+		"source": "\"\\n\\tTo add a number to \""
+	},
+	{
+		"line": 261,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 261,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 262,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 262,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 262,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 262,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 262,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 263,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 263,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 263,
+		"token": 11,
+		"source": "\"...enter a:\\n\""
+	},
+	{
+		"line": 263,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 263,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 264,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 264,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 264,
+		"token": 11,
+		"source": "\"\\tTo negate \""
+	},
+	{
+		"line": 264,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 264,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 265,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 265,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 265,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 265,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 265,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 266,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 266,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 266,
+		"token": 11,
+		"source": "\"...enter b:\\n\""
+	},
+	{
+		"line": 266,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 266,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 267,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 267,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 267,
+		"token": 11,
+		"source": "\"\\tTo find the difference between \""
+	},
+	{
+		"line": 267,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 267,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 268,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 268,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 268,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 268,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 268,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 269,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 269,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 269,
+		"token": 11,
+		"source": "\"and another number...enter c:\\n\""
+	},
+	{
+		"line": 269,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 269,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 270,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 270,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 270,
+		"token": 11,
+		"source": "\"\\tTo find the factorial of \""
+	},
+	{
+		"line": 270,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 270,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 271,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 271,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 271,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 271,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 271,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 272,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 272,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 272,
+		"token": 11,
+		"source": "\"...enter d:\\n\""
+	},
+	{
+		"line": 272,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 272,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 273,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 273,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 273,
+		"token": 11,
+		"source": "\"\\tTo square \""
+	},
+	{
+		"line": 273,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 273,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 274,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 274,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 274,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 274,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 274,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 275,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 275,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 275,
+		"token": 11,
+		"source": "\"...enter e:\\n\""
+	},
+	{
+		"line": 275,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 275,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 276,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 276,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 276,
+		"token": 11,
+		"source": "\"\\tTo cube \""
+	},
+	{
+		"line": 276,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 276,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 277,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 277,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 277,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 277,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 277,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 278,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 278,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 278,
+		"token": 11,
+		"source": "\"...enter f:\\n\""
+	},
+	{
+		"line": 278,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 278,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 279,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 279,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 279,
+		"token": 11,
+		"source": "\"\\tTo find out if \""
+	},
+	{
+		"line": 279,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 279,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 280,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 280,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 280,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 280,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 280,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 281,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 281,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 281,
+		"token": 11,
+		"source": "\"is a multiple of 3...enter g:\\n\""
+	},
+	{
+		"line": 281,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 281,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 282,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 282,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 282,
+		"token": 11,
+		"source": "\"\\tTo divide \""
+	},
+	{
+		"line": 282,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 282,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 283,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 283,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 283,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 283,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 283,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 284,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 284,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 284,
+		"token": 11,
+		"source": "\"by 8...enter h:\\n\""
+	},
+	{
+		"line": 284,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 284,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 285,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 285,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 285,
+		"token": 11,
+		"source": "\"\\tTo get a new number...enter j:\\n\""
+	},
+	{
+		"line": 285,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 285,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 286,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 286,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 286,
+		"token": 11,
+		"source": "\"\\tTo quit...enter q:\\n\\n\""
+	},
+	{
+		"line": 286,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 286,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 287,
+		"token": 7,
+		"source": "in_string"
+	},
+	{
+		"line": 287,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 287,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 287,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 288,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 289,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 289,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 291,
+		"token": 7,
+		"source": "prompt"
+	},
+	{
+		"line": 291,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 291,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 291,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 291,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 291,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 292,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 293,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 293,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 293,
+		"token": 11,
+		"source": "\"\\n\""
+	},
+	{
+		"line": 293,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 293,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 294,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 294,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 294,
+		"token": 11,
+		"source": "\"Please enter a number...  \""
+	},
+	{
+		"line": 294,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 294,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 295,
+		"token": 7,
+		"source": "in_string"
+	},
+	{
+		"line": 295,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 295,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 295,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 296,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 297,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 297,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 299,
+		"token": 7,
+		"source": "get_int"
+	},
+	{
+		"line": 299,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 299,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 299,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 299,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 299,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 300,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 301,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 301,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 301,
+		"token": 7,
+		"source": "z"
+	},
+	{
+		"line": 301,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 301,
+		"token": 8,
+		"source": "A2I"
+	},
+	{
+		"line": 301,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 301,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 301,
+		"token": 8,
+		"source": "A2I"
+	},
+	{
+		"line": 301,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 302,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 302,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 302,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 302,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 302,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 302,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 302,
+		"token": 7,
+		"source": "prompt"
+	},
+	{
+		"line": 302,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 302,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 302,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 303,
+		"token": 7,
+		"source": "z"
+	},
+	{
+		"line": 303,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 303,
+		"token": 7,
+		"source": "a2i"
+	},
+	{
+		"line": 303,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 303,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 303,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 304,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 305,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 305,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 306,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 307,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 307,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 309,
+		"token": 7,
+		"source": "is_even"
+	},
+	{
+		"line": 309,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 309,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 309,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 309,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 309,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 309,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 309,
+		"token": 8,
+		"source": "Bool"
+	},
+	{
+		"line": 309,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 310,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 310,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 310,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 310,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 310,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 310,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 310,
+		"token": 7,
+		"source": "num"
+	},
+	{
+		"line": 310,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 311,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 311,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 311,
+		"token": 36,
+		"source": "\u003c"
+	},
+	{
+		"line": 311,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 311,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 311,
+		"token": 7,
+		"source": "is_even"
+	},
+	{
+		"line": 311,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 311,
+		"token": 45,
+		"source": "~"
+	},
+	{
+		"line": 311,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 311,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 311,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 312,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 312,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 312,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 312,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 312,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 312,
+		"token": 10,
+		"source": "true"
+	},
+	{
+		"line": 312,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 313,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 313,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 313,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 313,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 313,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 313,
+		"token": 10,
+		"source": "false"
+	},
+	{
+		"line": 313,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 314,
+		"token": 7,
+		"source": "is_even"
+	},
+	{
+		"line": 314,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 314,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 314,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 314,
+		"token": 9,
+		"source": "2"
+	},
+	{
+		"line": 314,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 315,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 315,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 315,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 316,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 317,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 317,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 319,
+		"token": 7,
+		"source": "class_type"
+	},
+	{
+		"line": 319,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 319,
+		"token": 7,
+		"source": "var"
+	},
+	{
+		"line": 319,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 319,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 319,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 319,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 319,
+		"token": 8,
+		"source": "SELF_TYPE"
+	},
+	{
+		"line": 319,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 320,
+		"token": 24,
+		"source": "case"
+	},
+	{
+		"line": 320,
+		"token": 7,
+		"source": "var"
+	},
+	{
+		"line": 320,
+		"token": 27,
+		"source": "of"
+	},
+	{
+		"line": 321,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 321,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 321,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 321,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 321,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 321,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 321,
+		"token": 11,
+		"source": "\"Class type is now A\\n\""
+	},
+	{
+		"line": 321,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 321,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 322,
+		"token": 7,
+		"source": "b"
+	},
+	{
+		"line": 322,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 322,
+		"token": 8,
+		"source": "B"
+	},
+	{
+		"line": 322,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 322,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 322,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 322,
+		"token": 11,
+		"source": "\"Class type is now B\\n\""
+	},
+	{
+		"line": 322,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 322,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 323,
+		"token": 7,
+		"source": "c"
+	},
+	{
+		"line": 323,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 323,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 323,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 323,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 323,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 323,
+		"token": 11,
+		"source": "\"Class type is now C\\n\""
+	},
+	{
+		"line": 323,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 323,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 324,
+		"token": 7,
+		"source": "d"
+	},
+	{
+		"line": 324,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 324,
+		"token": 8,
+		"source": "D"
+	},
+	{
+		"line": 324,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 324,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 324,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 324,
+		"token": 11,
+		"source": "\"Class type is now D\\n\""
+	},
+	{
+		"line": 324,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 324,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 325,
+		"token": 7,
+		"source": "e"
+	},
+	{
+		"line": 325,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 325,
+		"token": 8,
+		"source": "E"
+	},
+	{
+		"line": 325,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 325,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 325,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 325,
+		"token": 11,
+		"source": "\"Class type is now E\\n\""
+	},
+	{
+		"line": 325,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 325,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 326,
+		"token": 7,
+		"source": "o"
+	},
+	{
+		"line": 326,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 326,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 326,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 326,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 326,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 326,
+		"token": 11,
+		"source": "\"Oooops\\n\""
+	},
+	{
+		"line": 326,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 326,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 327,
+		"token": 25,
+		"source": "esac"
+	},
+	{
+		"line": 328,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 328,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 330,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 330,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 330,
+		"token": 7,
+		"source": "var"
+	},
+	{
+		"line": 330,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 330,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 330,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 330,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 330,
+		"token": 8,
+		"source": "SELF_TYPE"
+	},
+	{
+		"line": 330,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 331,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 331,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 331,
+		"token": 7,
+		"source": "z"
+	},
+	{
+		"line": 331,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 331,
+		"token": 8,
+		"source": "A2I"
+	},
+	{
+		"line": 331,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 331,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 331,
+		"token": 8,
+		"source": "A2I"
+	},
+	{
+		"line": 331,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 332,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 333,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 333,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 333,
+		"token": 7,
+		"source": "z"
+	},
+	{
+		"line": 333,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 333,
+		"token": 7,
+		"source": "i2a"
+	},
+	{
+		"line": 333,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 333,
+		"token": 7,
+		"source": "var"
+	},
+	{
+		"line": 333,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 333,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 333,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 333,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 333,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 333,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 333,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 334,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 334,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 334,
+		"token": 11,
+		"source": "\" \""
+	},
+	{
+		"line": 334,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 334,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 335,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 336,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 337,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 337,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 339,
+		"token": 7,
+		"source": "main"
+	},
+	{
+		"line": 339,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 339,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 339,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 339,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 339,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 340,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 341,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 341,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 341,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 341,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 341,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 341,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 341,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 342,
+		"token": 23,
+		"source": "while"
+	},
+	{
+		"line": 342,
+		"token": 7,
+		"source": "flag"
+	},
+	{
+		"line": 342,
+		"token": 20,
+		"source": "loop"
+	},
+	{
+		"line": 343,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 345,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 345,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 345,
+		"token": 11,
+		"source": "\"number \""
+	},
+	{
+		"line": 345,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 345,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 346,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 346,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 346,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 346,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 346,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 347,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 347,
+		"token": 7,
+		"source": "is_even"
+	},
+	{
+		"line": 347,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 347,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 347,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 347,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 347,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 347,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 347,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 347,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 348,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 348,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 348,
+		"token": 11,
+		"source": "\"is even!\\n\""
+	},
+	{
+		"line": 348,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 349,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 350,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 350,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 350,
+		"token": 11,
+		"source": "\"is odd!\\n\""
+	},
+	{
+		"line": 350,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 351,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 351,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 353,
+		"token": 7,
+		"source": "class_type"
+	},
+	{
+		"line": 353,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 353,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 353,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 353,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 354,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 354,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 354,
+		"token": 7,
+		"source": "menu"
+	},
+	{
+		"line": 354,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 354,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 354,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 355,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 355,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 355,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 355,
+		"token": 11,
+		"source": "\"a\""
+	},
+	{
+		"line": 355,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 356,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 357,
+		"token": 7,
+		"source": "a_var"
+	},
+	{
+		"line": 357,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 357,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 357,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 357,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 357,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 357,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 357,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 357,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 357,
+		"token": 7,
+		"source": "get_int"
+	},
+	{
+		"line": 357,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 357,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 357,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 357,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 358,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 358,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 358,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 358,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 358,
+		"token": 8,
+		"source": "B"
+	},
+	{
+		"line": 358,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 358,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 358,
+		"token": 7,
+		"source": "method2"
+	},
+	{
+		"line": 358,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 358,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 358,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 358,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 358,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 358,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 358,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 358,
+		"token": 7,
+		"source": "a_var"
+	},
+	{
+		"line": 358,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 358,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 358,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 358,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 358,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 358,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 359,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 359,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 360,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 360,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 360,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 360,
+		"token": 11,
+		"source": "\"b\""
+	},
+	{
+		"line": 360,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 361,
+		"token": 24,
+		"source": "case"
+	},
+	{
+		"line": 361,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 361,
+		"token": 27,
+		"source": "of"
+	},
+	{
+		"line": 362,
+		"token": 7,
+		"source": "c"
+	},
+	{
+		"line": 362,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 362,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 362,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 362,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 362,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 362,
+		"token": 7,
+		"source": "c"
+	},
+	{
+		"line": 362,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 362,
+		"token": 7,
+		"source": "method6"
+	},
+	{
+		"line": 362,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 362,
+		"token": 7,
+		"source": "c"
+	},
+	{
+		"line": 362,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 362,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 362,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 362,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 362,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 362,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 363,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 363,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 363,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 363,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 363,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 363,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 363,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 363,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 363,
+		"token": 7,
+		"source": "method3"
+	},
+	{
+		"line": 363,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 363,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 363,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 363,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 363,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 363,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 363,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 363,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 364,
+		"token": 7,
+		"source": "o"
+	},
+	{
+		"line": 364,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 364,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 364,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 364,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 365,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 365,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 365,
+		"token": 11,
+		"source": "\"Oooops\\n\""
+	},
+	{
+		"line": 365,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 365,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 366,
+		"token": 7,
+		"source": "abort"
+	},
+	{
+		"line": 366,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 366,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 366,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 366,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 366,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 367,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 367,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 368,
+		"token": 25,
+		"source": "esac"
+	},
+	{
+		"line": 368,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 369,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 369,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 369,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 369,
+		"token": 11,
+		"source": "\"c\""
+	},
+	{
+		"line": 369,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 370,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 371,
+		"token": 7,
+		"source": "a_var"
+	},
+	{
+		"line": 371,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 371,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 371,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 371,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 371,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 371,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 371,
+		"token": 7,
+		"source": "set_var"
+	},
+	{
+		"line": 371,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 371,
+		"token": 7,
+		"source": "get_int"
+	},
+	{
+		"line": 371,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 371,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 371,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 371,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 372,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 372,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 372,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 372,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 372,
+		"token": 8,
+		"source": "D"
+	},
+	{
+		"line": 372,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 372,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 372,
+		"token": 7,
+		"source": "method4"
+	},
+	{
+		"line": 372,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 372,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 372,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 372,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 372,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 372,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 372,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 372,
+		"token": 7,
+		"source": "a_var"
+	},
+	{
+		"line": 372,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 372,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 372,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 372,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 372,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 372,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 373,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 373,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 374,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 374,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 374,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 374,
+		"token": 11,
+		"source": "\"d\""
+	},
+	{
+		"line": 374,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 374,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 374,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 374,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 374,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 374,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 374,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 374,
+		"token": 39,
+		"source": "@"
+	},
+	{
+		"line": 374,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 374,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 374,
+		"token": 7,
+		"source": "method5"
+	},
+	{
+		"line": 374,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 374,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 374,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 374,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 374,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 374,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 374,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 374,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 376,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 376,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 376,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 376,
+		"token": 11,
+		"source": "\"e\""
+	},
+	{
+		"line": 376,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 376,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 376,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 376,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 376,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 376,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 376,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 376,
+		"token": 39,
+		"source": "@"
+	},
+	{
+		"line": 376,
+		"token": 8,
+		"source": "B"
+	},
+	{
+		"line": 376,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 376,
+		"token": 7,
+		"source": "method5"
+	},
+	{
+		"line": 376,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 376,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 376,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 376,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 376,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 376,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 376,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 376,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 378,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 378,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 378,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 378,
+		"token": 11,
+		"source": "\"f\""
+	},
+	{
+		"line": 378,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 378,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 378,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 378,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 378,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 378,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 378,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 378,
+		"token": 39,
+		"source": "@"
+	},
+	{
+		"line": 378,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 378,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 378,
+		"token": 7,
+		"source": "method5"
+	},
+	{
+		"line": 378,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 378,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 378,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 378,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 378,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 378,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 378,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 378,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 380,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 380,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 380,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 380,
+		"token": 11,
+		"source": "\"g\""
+	},
+	{
+		"line": 380,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 381,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 381,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 381,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 381,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 381,
+		"token": 8,
+		"source": "D"
+	},
+	{
+		"line": 381,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 381,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 381,
+		"token": 7,
+		"source": "method7"
+	},
+	{
+		"line": 381,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 381,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 381,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 381,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 381,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 381,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 381,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 381,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 382,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 383,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 384,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 384,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 384,
+		"token": 11,
+		"source": "\"number \""
+	},
+	{
+		"line": 384,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 384,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 385,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 385,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 385,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 385,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 385,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 386,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 386,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 386,
+		"token": 11,
+		"source": "\"is divisible by 3.\\n\""
+	},
+	{
+		"line": 386,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 386,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 387,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 388,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 389,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 390,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 390,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 390,
+		"token": 11,
+		"source": "\"number \""
+	},
+	{
+		"line": 390,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 390,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 391,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 391,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 391,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 391,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 391,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 392,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 392,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 392,
+		"token": 11,
+		"source": "\"is not divisible by 3.\\n\""
+	},
+	{
+		"line": 392,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 392,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 393,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 394,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 394,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 395,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 395,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 395,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 395,
+		"token": 11,
+		"source": "\"h\""
+	},
+	{
+		"line": 395,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 396,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 396,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 396,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 396,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 396,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 396,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 397,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 398,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 398,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 398,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 398,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 398,
+		"token": 8,
+		"source": "E"
+	},
+	{
+		"line": 398,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 398,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 398,
+		"token": 7,
+		"source": "method6"
+	},
+	{
+		"line": 398,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 398,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 398,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 398,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 398,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 398,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 398,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 398,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 399,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 399,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 399,
+		"token": 7,
+		"source": "r"
+	},
+	{
+		"line": 399,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 399,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 399,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 399,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 399,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 399,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 399,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 399,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 399,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 399,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 399,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 399,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 399,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 399,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 399,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 399,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 399,
+		"token": 42,
+		"source": "*"
+	},
+	{
+		"line": 399,
+		"token": 9,
+		"source": "8"
+	},
+	{
+		"line": 399,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 399,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 399,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 400,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 401,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 401,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 401,
+		"token": 11,
+		"source": "\"number \""
+	},
+	{
+		"line": 401,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 401,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 402,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 402,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 402,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 402,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 402,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 403,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 403,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 403,
+		"token": 11,
+		"source": "\"is equal to \""
+	},
+	{
+		"line": 403,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 403,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 404,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 404,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 404,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 404,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 404,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 405,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 405,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 405,
+		"token": 11,
+		"source": "\"times 8 with a remainder of \""
+	},
+	{
+		"line": 405,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 405,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 406,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 406,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 406,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 406,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 406,
+		"token": 8,
+		"source": "A2I"
+	},
+	{
+		"line": 406,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 406,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 406,
+		"token": 8,
+		"source": "A2I"
+	},
+	{
+		"line": 406,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 407,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 408,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 408,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 408,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 408,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 408,
+		"token": 7,
+		"source": "i2a"
+	},
+	{
+		"line": 408,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 408,
+		"token": 7,
+		"source": "r"
+	},
+	{
+		"line": 408,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 408,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 408,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 409,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 409,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 409,
+		"token": 11,
+		"source": "\"\\n\""
+	},
+	{
+		"line": 409,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 409,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 410,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 411,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 411,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 412,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 413,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 413,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 414,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 414,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 414,
+		"token": 7,
+		"source": "x"
+	},
+	{
+		"line": 414,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 415,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 416,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 417,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 418,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 418,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 418,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 418,
+		"token": 11,
+		"source": "\"j\""
+	},
+	{
+		"line": 418,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 418,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 418,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 418,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 418,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 418,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 418,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 419,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 420,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 420,
+		"token": 7,
+		"source": "char"
+	},
+	{
+		"line": 420,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 420,
+		"token": 11,
+		"source": "\"q\""
+	},
+	{
+		"line": 420,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 420,
+		"token": 7,
+		"source": "flag"
+	},
+	{
+		"line": 420,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 420,
+		"token": 10,
+		"source": "false"
+	},
+	{
+		"line": 421,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 422,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 422,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 422,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 422,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 422,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 422,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 422,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 422,
+		"token": 7,
+		"source": "method1"
+	},
+	{
+		"line": 422,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 422,
+		"token": 7,
+		"source": "avar"
+	},
+	{
+		"line": 422,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 422,
+		"token": 7,
+		"source": "value"
+	},
+	{
+		"line": 422,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 422,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 422,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 423,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 423,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 423,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 423,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 423,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 423,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 423,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 423,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 423,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 423,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 423,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 424,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 425,
+		"token": 21,
+		"source": "pool"
+	},
+	{
+		"line": 425,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 426,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 427,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 427,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 429,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 429,
+		"token": 34,
+		"source": ";"
+	}
+]

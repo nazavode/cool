@@ -1,0 +1,2402 @@
+[
+	{
+		"line": 3,
+		"token": 12,
+		"source": "Class"
+	},
+	{
+		"line": 3,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 3,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 3,
+		"token": 8,
+		"source": "IO"
+	},
+	{
+		"line": 3,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 4,
+		"token": 7,
+		"source": "title"
+	},
+	{
+		"line": 4,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 4,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 4,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 5,
+		"token": 7,
+		"source": "author"
+	},
+	{
+		"line": 5,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 5,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 5,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "initBook"
+	},
+	{
+		"line": 7,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "title_p"
+	},
+	{
+		"line": 7,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 7,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 7,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "author_p"
+	},
+	{
+		"line": 7,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 7,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 7,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 7,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 7,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 7,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 8,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 9,
+		"token": 7,
+		"source": "title"
+	},
+	{
+		"line": 9,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 9,
+		"token": 7,
+		"source": "title_p"
+	},
+	{
+		"line": 9,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 10,
+		"token": 7,
+		"source": "author"
+	},
+	{
+		"line": 10,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 10,
+		"token": 7,
+		"source": "author_p"
+	},
+	{
+		"line": 10,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 11,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 11,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 12,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 13,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 13,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 15,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 15,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 15,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 15,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 15,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 15,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 16,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 17,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 17,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 17,
+		"token": 11,
+		"source": "\"title:      \""
+	},
+	{
+		"line": 17,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 17,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 17,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 17,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 17,
+		"token": 7,
+		"source": "title"
+	},
+	{
+		"line": 17,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 17,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 17,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 17,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 17,
+		"token": 11,
+		"source": "\"\\n\""
+	},
+	{
+		"line": 17,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 17,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 18,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 18,
+		"token": 11,
+		"source": "\"author:     \""
+	},
+	{
+		"line": 18,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 18,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 18,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "author"
+	},
+	{
+		"line": 18,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 18,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 18,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 18,
+		"token": 11,
+		"source": "\"\\n\""
+	},
+	{
+		"line": 18,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 18,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 19,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 19,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 20,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 21,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 21,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 22,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 22,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 24,
+		"token": 12,
+		"source": "Class"
+	},
+	{
+		"line": 24,
+		"token": 8,
+		"source": "Article"
+	},
+	{
+		"line": 24,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 24,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 24,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 25,
+		"token": 7,
+		"source": "per_title"
+	},
+	{
+		"line": 25,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 25,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 25,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 27,
+		"token": 7,
+		"source": "initArticle"
+	},
+	{
+		"line": 27,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 27,
+		"token": 7,
+		"source": "title_p"
+	},
+	{
+		"line": 27,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 27,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 27,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 27,
+		"token": 7,
+		"source": "author_p"
+	},
+	{
+		"line": 27,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 27,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 27,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 28,
+		"token": 7,
+		"source": "per_title_p"
+	},
+	{
+		"line": 28,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 28,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 28,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 28,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 28,
+		"token": 8,
+		"source": "Article"
+	},
+	{
+		"line": 28,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 29,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 30,
+		"token": 7,
+		"source": "initBook"
+	},
+	{
+		"line": 30,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 30,
+		"token": 7,
+		"source": "title_p"
+	},
+	{
+		"line": 30,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 30,
+		"token": 7,
+		"source": "author_p"
+	},
+	{
+		"line": 30,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 30,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 31,
+		"token": 7,
+		"source": "per_title"
+	},
+	{
+		"line": 31,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 31,
+		"token": 7,
+		"source": "per_title_p"
+	},
+	{
+		"line": 31,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 32,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 32,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 33,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 34,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 34,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 36,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 36,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 36,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 36,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 36,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 36,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 37,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 38,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 38,
+		"token": 39,
+		"source": "@"
+	},
+	{
+		"line": 38,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 38,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 38,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 38,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 38,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 38,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 39,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 39,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 39,
+		"token": 11,
+		"source": "\"periodical:  \""
+	},
+	{
+		"line": 39,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 39,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 39,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 39,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 39,
+		"token": 7,
+		"source": "per_title"
+	},
+	{
+		"line": 39,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 39,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 39,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 39,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 39,
+		"token": 11,
+		"source": "\"\\n\""
+	},
+	{
+		"line": 39,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 39,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 40,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 40,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 41,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 42,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 42,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 43,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 43,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 45,
+		"token": 12,
+		"source": "Class"
+	},
+	{
+		"line": 45,
+		"token": 8,
+		"source": "BookList"
+	},
+	{
+		"line": 45,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 45,
+		"token": 8,
+		"source": "IO"
+	},
+	{
+		"line": 45,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 50,
+		"token": 7,
+		"source": "isNil"
+	},
+	{
+		"line": 50,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 50,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 50,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 50,
+		"token": 8,
+		"source": "Bool"
+	},
+	{
+		"line": 50,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 50,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 50,
+		"token": 7,
+		"source": "abort"
+	},
+	{
+		"line": 50,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 50,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 50,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 50,
+		"token": 10,
+		"source": "true"
+	},
+	{
+		"line": 50,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 50,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 50,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 50,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 52,
+		"token": 7,
+		"source": "cons"
+	},
+	{
+		"line": 52,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 52,
+		"token": 7,
+		"source": "hd"
+	},
+	{
+		"line": 52,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 52,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 52,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 52,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 52,
+		"token": 8,
+		"source": "Cons"
+	},
+	{
+		"line": 52,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 53,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 53,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 53,
+		"token": 7,
+		"source": "new_cell"
+	},
+	{
+		"line": 53,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 53,
+		"token": 8,
+		"source": "Cons"
+	},
+	{
+		"line": 53,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 53,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 53,
+		"token": 8,
+		"source": "Cons"
+	},
+	{
+		"line": 53,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 54,
+		"token": 7,
+		"source": "new_cell"
+	},
+	{
+		"line": 54,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 54,
+		"token": 7,
+		"source": "init"
+	},
+	{
+		"line": 54,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 54,
+		"token": 7,
+		"source": "hd"
+	},
+	{
+		"line": 54,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 54,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 54,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 55,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 56,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 56,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 62,
+		"token": 7,
+		"source": "car"
+	},
+	{
+		"line": 62,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 62,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 62,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 62,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 62,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 62,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 62,
+		"token": 7,
+		"source": "abort"
+	},
+	{
+		"line": 62,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 62,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 62,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 62,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 62,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 62,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 62,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 62,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 62,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 68,
+		"token": 7,
+		"source": "cdr"
+	},
+	{
+		"line": 68,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 68,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 68,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 68,
+		"token": 8,
+		"source": "BookList"
+	},
+	{
+		"line": 68,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 68,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 68,
+		"token": 7,
+		"source": "abort"
+	},
+	{
+		"line": 68,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 68,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 68,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 68,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 68,
+		"token": 8,
+		"source": "BookList"
+	},
+	{
+		"line": 68,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 68,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 68,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 68,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 70,
+		"token": 7,
+		"source": "print_list"
+	},
+	{
+		"line": 70,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 70,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 70,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 70,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 70,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 70,
+		"token": 7,
+		"source": "abort"
+	},
+	{
+		"line": 70,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 70,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 70,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 70,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 71,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 71,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 73,
+		"token": 12,
+		"source": "Class"
+	},
+	{
+		"line": 73,
+		"token": 8,
+		"source": "Cons"
+	},
+	{
+		"line": 73,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 73,
+		"token": 8,
+		"source": "BookList"
+	},
+	{
+		"line": 73,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 74,
+		"token": 7,
+		"source": "xcar"
+	},
+	{
+		"line": 74,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 74,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 74,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 75,
+		"token": 7,
+		"source": "xcdr"
+	},
+	{
+		"line": 75,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 75,
+		"token": 8,
+		"source": "BookList"
+	},
+	{
+		"line": 75,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 79,
+		"token": 7,
+		"source": "isNil"
+	},
+	{
+		"line": 79,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 79,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 79,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 79,
+		"token": 8,
+		"source": "Bool"
+	},
+	{
+		"line": 79,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 79,
+		"token": 10,
+		"source": "false"
+	},
+	{
+		"line": 79,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 79,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 81,
+		"token": 7,
+		"source": "init"
+	},
+	{
+		"line": 81,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 81,
+		"token": 7,
+		"source": "hd"
+	},
+	{
+		"line": 81,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 81,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 81,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 81,
+		"token": 7,
+		"source": "tl"
+	},
+	{
+		"line": 81,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 81,
+		"token": 8,
+		"source": "BookList"
+	},
+	{
+		"line": 81,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 81,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 81,
+		"token": 8,
+		"source": "Cons"
+	},
+	{
+		"line": 81,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 82,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 83,
+		"token": 7,
+		"source": "xcar"
+	},
+	{
+		"line": 83,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 83,
+		"token": 7,
+		"source": "hd"
+	},
+	{
+		"line": 83,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 84,
+		"token": 7,
+		"source": "xcdr"
+	},
+	{
+		"line": 84,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 84,
+		"token": 7,
+		"source": "tl"
+	},
+	{
+		"line": 84,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 85,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 85,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 86,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 87,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 87,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 89,
+		"token": 7,
+		"source": "car"
+	},
+	{
+		"line": 89,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 89,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 89,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 89,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 89,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 89,
+		"token": 7,
+		"source": "xcar"
+	},
+	{
+		"line": 89,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 89,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 91,
+		"token": 7,
+		"source": "cdr"
+	},
+	{
+		"line": 91,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 91,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 91,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 91,
+		"token": 8,
+		"source": "BookList"
+	},
+	{
+		"line": 91,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 91,
+		"token": 7,
+		"source": "xcdr"
+	},
+	{
+		"line": 91,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 91,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 93,
+		"token": 7,
+		"source": "print_list"
+	},
+	{
+		"line": 93,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 93,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 93,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 93,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 93,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 94,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 95,
+		"token": 24,
+		"source": "case"
+	},
+	{
+		"line": 95,
+		"token": 7,
+		"source": "xcar"
+	},
+	{
+		"line": 95,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 95,
+		"token": 7,
+		"source": "print"
+	},
+	{
+		"line": 95,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 95,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 95,
+		"token": 27,
+		"source": "of"
+	},
+	{
+		"line": 96,
+		"token": 7,
+		"source": "dummy"
+	},
+	{
+		"line": 96,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 96,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 96,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 96,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 96,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 96,
+		"token": 11,
+		"source": "\"- dynamic type was Book -\\n\""
+	},
+	{
+		"line": 96,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 96,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 97,
+		"token": 7,
+		"source": "dummy"
+	},
+	{
+		"line": 97,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 97,
+		"token": 8,
+		"source": "Article"
+	},
+	{
+		"line": 97,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 97,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 97,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 97,
+		"token": 11,
+		"source": "\"- dynamic type was Article -\\n\""
+	},
+	{
+		"line": 97,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 97,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 98,
+		"token": 25,
+		"source": "esac"
+	},
+	{
+		"line": 98,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 99,
+		"token": 7,
+		"source": "xcdr"
+	},
+	{
+		"line": 99,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 99,
+		"token": 7,
+		"source": "print_list"
+	},
+	{
+		"line": 99,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 99,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 99,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 100,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 101,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 101,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 102,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 102,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 104,
+		"token": 12,
+		"source": "Class"
+	},
+	{
+		"line": 104,
+		"token": 8,
+		"source": "Nil"
+	},
+	{
+		"line": 104,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 104,
+		"token": 8,
+		"source": "BookList"
+	},
+	{
+		"line": 104,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 105,
+		"token": 7,
+		"source": "isNil"
+	},
+	{
+		"line": 105,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 105,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 105,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 105,
+		"token": 8,
+		"source": "Bool"
+	},
+	{
+		"line": 105,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 105,
+		"token": 10,
+		"source": "true"
+	},
+	{
+		"line": 105,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 105,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 107,
+		"token": 7,
+		"source": "print_list"
+	},
+	{
+		"line": 107,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 107,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 107,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 107,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 107,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 107,
+		"token": 10,
+		"source": "true"
+	},
+	{
+		"line": 107,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 107,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 108,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 108,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 111,
+		"token": 12,
+		"source": "Class"
+	},
+	{
+		"line": 111,
+		"token": 8,
+		"source": "Main"
+	},
+	{
+		"line": 111,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 113,
+		"token": 7,
+		"source": "books"
+	},
+	{
+		"line": 113,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 113,
+		"token": 8,
+		"source": "BookList"
+	},
+	{
+		"line": 113,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 115,
+		"token": 7,
+		"source": "main"
+	},
+	{
+		"line": 115,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 115,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 115,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 115,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 115,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 116,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 116,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 116,
+		"token": 7,
+		"source": "a_book"
+	},
+	{
+		"line": 116,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 116,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 116,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 117,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 117,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 117,
+		"token": 8,
+		"source": "Book"
+	},
+	{
+		"line": 117,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 117,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 117,
+		"token": 7,
+		"source": "initBook"
+	},
+	{
+		"line": 117,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 117,
+		"token": 11,
+		"source": "\"Compilers, Principles, Techniques, and Tools\""
+	},
+	{
+		"line": 117,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 118,
+		"token": 11,
+		"source": "\"Aho, Sethi, and Ullman\""
+	},
+	{
+		"line": 118,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 119,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 120,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 120,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 120,
+		"token": 7,
+		"source": "an_article"
+	},
+	{
+		"line": 120,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 120,
+		"token": 8,
+		"source": "Article"
+	},
+	{
+		"line": 120,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 121,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 121,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 121,
+		"token": 8,
+		"source": "Article"
+	},
+	{
+		"line": 121,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 121,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 121,
+		"token": 7,
+		"source": "initArticle"
+	},
+	{
+		"line": 121,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 121,
+		"token": 11,
+		"source": "\"The Top 100 CD_ROMs\""
+	},
+	{
+		"line": 121,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 122,
+		"token": 11,
+		"source": "\"Ulanoff\""
+	},
+	{
+		"line": 122,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 123,
+		"token": 11,
+		"source": "\"PC Magazine\""
+	},
+	{
+		"line": 123,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 124,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 125,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 126,
+		"token": 7,
+		"source": "books"
+	},
+	{
+		"line": 126,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 126,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 126,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 126,
+		"token": 8,
+		"source": "Nil"
+	},
+	{
+		"line": 126,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 126,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 126,
+		"token": 7,
+		"source": "cons"
+	},
+	{
+		"line": 126,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 126,
+		"token": 7,
+		"source": "a_book"
+	},
+	{
+		"line": 126,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 126,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 126,
+		"token": 7,
+		"source": "cons"
+	},
+	{
+		"line": 126,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 126,
+		"token": 7,
+		"source": "an_article"
+	},
+	{
+		"line": 126,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 126,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 127,
+		"token": 7,
+		"source": "books"
+	},
+	{
+		"line": 127,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 127,
+		"token": 7,
+		"source": "print_list"
+	},
+	{
+		"line": 127,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 127,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 127,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 128,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 129,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 130,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 131,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 131,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 132,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 132,
+		"token": 34,
+		"source": ";"
+	}
+]

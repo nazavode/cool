@@ -1,0 +1,652 @@
+[
+	{
+		"line": 1,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 1,
+		"token": 8,
+		"source": "Main"
+	},
+	{
+		"line": 1,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 1,
+		"token": 8,
+		"source": "IO"
+	},
+	{
+		"line": 1,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "pal"
+	},
+	{
+		"line": 2,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 2,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 2,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 2,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 2,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 2,
+		"token": 8,
+		"source": "Bool"
+	},
+	{
+		"line": 2,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 3,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 3,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 3,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 3,
+		"token": 7,
+		"source": "length"
+	},
+	{
+		"line": 3,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 3,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 3,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 3,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 4,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 4,
+		"token": 10,
+		"source": "true"
+	},
+	{
+		"line": 5,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 5,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 5,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 5,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 5,
+		"token": 7,
+		"source": "length"
+	},
+	{
+		"line": 5,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 5,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 5,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 5,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 6,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 6,
+		"token": 10,
+		"source": "true"
+	},
+	{
+		"line": 7,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 7,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 7,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "substr"
+	},
+	{
+		"line": 7,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 7,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 7,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 7,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 7,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 7,
+		"token": 47,
+		"source": "="
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 7,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "substr"
+	},
+	{
+		"line": 7,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 7,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "length"
+	},
+	{
+		"line": 7,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 7,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 7,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 7,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 7,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 7,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 7,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 8,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 8,
+		"token": 7,
+		"source": "pal"
+	},
+	{
+		"line": 8,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 8,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 8,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 8,
+		"token": 7,
+		"source": "substr"
+	},
+	{
+		"line": 8,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 8,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 8,
+		"token": 35,
+		"source": ","
+	},
+	{
+		"line": 8,
+		"token": 7,
+		"source": "s"
+	},
+	{
+		"line": 8,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 8,
+		"token": 7,
+		"source": "length"
+	},
+	{
+		"line": 8,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 8,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 8,
+		"token": 41,
+		"source": "-"
+	},
+	{
+		"line": 8,
+		"token": 9,
+		"source": "2"
+	},
+	{
+		"line": 8,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 8,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 9,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 9,
+		"token": 10,
+		"source": "false"
+	},
+	{
+		"line": 10,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 10,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 10,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 11,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 11,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 13,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 13,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 13,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 13,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 15,
+		"token": 7,
+		"source": "main"
+	},
+	{
+		"line": 15,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 15,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 15,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 15,
+		"token": 8,
+		"source": "SELF_TYPE"
+	},
+	{
+		"line": 15,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 16,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 17,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 17,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 17,
+		"token": 45,
+		"source": "~"
+	},
+	{
+		"line": 17,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 17,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 18,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 18,
+		"token": 11,
+		"source": "\"enter a string\\n\""
+	},
+	{
+		"line": 18,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 18,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 19,
+		"token": 14,
+		"source": "if"
+	},
+	{
+		"line": 19,
+		"token": 7,
+		"source": "pal"
+	},
+	{
+		"line": 19,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 19,
+		"token": 7,
+		"source": "in_string"
+	},
+	{
+		"line": 19,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 19,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 19,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 20,
+		"token": 22,
+		"source": "then"
+	},
+	{
+		"line": 20,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 20,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 20,
+		"token": 11,
+		"source": "\"that was a palindrome\\n\""
+	},
+	{
+		"line": 20,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 21,
+		"token": 13,
+		"source": "else"
+	},
+	{
+		"line": 21,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 21,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 21,
+		"token": 11,
+		"source": "\"that was not a palindrome\\n\""
+	},
+	{
+		"line": 21,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 22,
+		"token": 15,
+		"source": "fi"
+	},
+	{
+		"line": 22,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 23,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 24,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 24,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 25,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 25,
+		"token": 34,
+		"source": ";"
+	}
+]

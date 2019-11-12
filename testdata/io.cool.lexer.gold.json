@@ -1,0 +1,717 @@
+[
+	{
+		"line": 49,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 49,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 49,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 53,
+		"token": 7,
+		"source": "io"
+	},
+	{
+		"line": 53,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 53,
+		"token": 8,
+		"source": "IO"
+	},
+	{
+		"line": 53,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 53,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 53,
+		"token": 8,
+		"source": "IO"
+	},
+	{
+		"line": 53,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 55,
+		"token": 7,
+		"source": "out_a"
+	},
+	{
+		"line": 55,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 55,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 55,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 55,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 55,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 55,
+		"token": 7,
+		"source": "io"
+	},
+	{
+		"line": 55,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 55,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 55,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 55,
+		"token": 11,
+		"source": "\"A: Hello world\\n\""
+	},
+	{
+		"line": 55,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 55,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 55,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 57,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 57,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 60,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 60,
+		"token": 8,
+		"source": "B"
+	},
+	{
+		"line": 60,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 60,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 60,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 64,
+		"token": 7,
+		"source": "out_b"
+	},
+	{
+		"line": 64,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 64,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 64,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 64,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 64,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 64,
+		"token": 7,
+		"source": "io"
+	},
+	{
+		"line": 64,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 64,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 64,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 64,
+		"token": 11,
+		"source": "\"B: Hello world\\n\""
+	},
+	{
+		"line": 64,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 64,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 64,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 66,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 66,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 69,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 69,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 69,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 69,
+		"token": 8,
+		"source": "IO"
+	},
+	{
+		"line": 69,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 73,
+		"token": 7,
+		"source": "out_c"
+	},
+	{
+		"line": 73,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 73,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 73,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 73,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 73,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 73,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 73,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 73,
+		"token": 11,
+		"source": "\"C: Hello world\\n\""
+	},
+	{
+		"line": 73,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 73,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 73,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 77,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 77,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 80,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 80,
+		"token": 8,
+		"source": "D"
+	},
+	{
+		"line": 80,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 80,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 80,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 84,
+		"token": 7,
+		"source": "out_d"
+	},
+	{
+		"line": 84,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 84,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 84,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 84,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 84,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 84,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 84,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 84,
+		"token": 11,
+		"source": "\"D: Hello world\\n\""
+	},
+	{
+		"line": 84,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 84,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 84,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 86,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 86,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 89,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 89,
+		"token": 8,
+		"source": "Main"
+	},
+	{
+		"line": 89,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 89,
+		"token": 8,
+		"source": "IO"
+	},
+	{
+		"line": 89,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 93,
+		"token": 7,
+		"source": "main"
+	},
+	{
+		"line": 93,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 93,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 93,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 93,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 93,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 94,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 95,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 95,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 95,
+		"token": 8,
+		"source": "A"
+	},
+	{
+		"line": 95,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 95,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 95,
+		"token": 7,
+		"source": "out_a"
+	},
+	{
+		"line": 95,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 95,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 95,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 96,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 96,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 96,
+		"token": 8,
+		"source": "B"
+	},
+	{
+		"line": 96,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 96,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 96,
+		"token": 7,
+		"source": "out_b"
+	},
+	{
+		"line": 96,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 96,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 96,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 97,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 97,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 97,
+		"token": 8,
+		"source": "C"
+	},
+	{
+		"line": 97,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 97,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 97,
+		"token": 7,
+		"source": "out_c"
+	},
+	{
+		"line": 97,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 97,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 97,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 98,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 98,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 98,
+		"token": 8,
+		"source": "D"
+	},
+	{
+		"line": 98,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 98,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 98,
+		"token": 7,
+		"source": "out_d"
+	},
+	{
+		"line": 98,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 98,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 98,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 99,
+		"token": 7,
+		"source": "out_string"
+	},
+	{
+		"line": 99,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 99,
+		"token": 11,
+		"source": "\"Done.\\n\""
+	},
+	{
+		"line": 99,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 99,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 100,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 101,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 101,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 103,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 103,
+		"token": 34,
+		"source": ";"
+	}
+]

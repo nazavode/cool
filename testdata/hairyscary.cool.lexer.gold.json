@@ -1,0 +1,1632 @@
+[
+	{
+		"line": 3,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 3,
+		"token": 8,
+		"source": "Foo"
+	},
+	{
+		"line": 3,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 3,
+		"token": 8,
+		"source": "Bazz"
+	},
+	{
+		"line": 3,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 4,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 4,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 4,
+		"token": 8,
+		"source": "Razz"
+	},
+	{
+		"line": 4,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 4,
+		"token": 24,
+		"source": "case"
+	},
+	{
+		"line": 4,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 4,
+		"token": 27,
+		"source": "of"
+	},
+	{
+		"line": 5,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 5,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 5,
+		"token": 8,
+		"source": "Razz"
+	},
+	{
+		"line": 5,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 5,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 5,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 5,
+		"token": 8,
+		"source": "Bar"
+	},
+	{
+		"line": 5,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 5,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 6,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 6,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 6,
+		"token": 8,
+		"source": "Foo"
+	},
+	{
+		"line": 6,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 6,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 6,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 6,
+		"token": 8,
+		"source": "Razz"
+	},
+	{
+		"line": 6,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 6,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 7,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 7,
+		"token": 8,
+		"source": "Bar"
+	},
+	{
+		"line": 7,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 7,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 7,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 8,
+		"token": 25,
+		"source": "esac"
+	},
+	{
+		"line": 8,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 10,
+		"token": 7,
+		"source": "b"
+	},
+	{
+		"line": 10,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 10,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 10,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 10,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 10,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 10,
+		"token": 7,
+		"source": "doh"
+	},
+	{
+		"line": 10,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 10,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 10,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 10,
+		"token": 7,
+		"source": "g"
+	},
+	{
+		"line": 10,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 10,
+		"token": 7,
+		"source": "doh"
+	},
+	{
+		"line": 10,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 10,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 10,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 10,
+		"token": 7,
+		"source": "doh"
+	},
+	{
+		"line": 10,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 10,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 10,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 10,
+		"token": 7,
+		"source": "printh"
+	},
+	{
+		"line": 10,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 10,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 10,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 12,
+		"token": 7,
+		"source": "doh"
+	},
+	{
+		"line": 12,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 12,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 12,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 12,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 12,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 12,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 12,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 12,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 12,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 12,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 12,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 12,
+		"token": 7,
+		"source": "h"
+	},
+	{
+		"line": 12,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 12,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 12,
+		"token": 7,
+		"source": "h"
+	},
+	{
+		"line": 12,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 12,
+		"token": 7,
+		"source": "h"
+	},
+	{
+		"line": 12,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 12,
+		"token": 9,
+		"source": "2"
+	},
+	{
+		"line": 12,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 12,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 12,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 12,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 12,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 12,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 12,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 14,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 14,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 16,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 16,
+		"token": 8,
+		"source": "Bar"
+	},
+	{
+		"line": 16,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 16,
+		"token": 8,
+		"source": "Razz"
+	},
+	{
+		"line": 16,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "c"
+	},
+	{
+		"line": 18,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 18,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 18,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 18,
+		"token": 7,
+		"source": "doh"
+	},
+	{
+		"line": 18,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 18,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 18,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 20,
+		"token": 7,
+		"source": "d"
+	},
+	{
+		"line": 20,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 20,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 20,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 20,
+		"token": 7,
+		"source": "printh"
+	},
+	{
+		"line": 20,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 20,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 20,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 21,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 21,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 24,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 24,
+		"token": 8,
+		"source": "Razz"
+	},
+	{
+		"line": 24,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 24,
+		"token": 8,
+		"source": "Foo"
+	},
+	{
+		"line": 24,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 26,
+		"token": 7,
+		"source": "e"
+	},
+	{
+		"line": 26,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 26,
+		"token": 8,
+		"source": "Bar"
+	},
+	{
+		"line": 26,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 26,
+		"token": 24,
+		"source": "case"
+	},
+	{
+		"line": 26,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 26,
+		"token": 27,
+		"source": "of"
+	},
+	{
+		"line": 27,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 27,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 27,
+		"token": 8,
+		"source": "Razz"
+	},
+	{
+		"line": 27,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 27,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 27,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 27,
+		"token": 8,
+		"source": "Bar"
+	},
+	{
+		"line": 27,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 27,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 28,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 28,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 28,
+		"token": 8,
+		"source": "Bar"
+	},
+	{
+		"line": 28,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 28,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 28,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 29,
+		"token": 25,
+		"source": "esac"
+	},
+	{
+		"line": 29,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 31,
+		"token": 7,
+		"source": "f"
+	},
+	{
+		"line": 31,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 31,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 31,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 31,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 31,
+		"token": 39,
+		"source": "@"
+	},
+	{
+		"line": 31,
+		"token": 8,
+		"source": "Bazz"
+	},
+	{
+		"line": 31,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 31,
+		"token": 7,
+		"source": "doh"
+	},
+	{
+		"line": 31,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 31,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 31,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 31,
+		"token": 7,
+		"source": "g"
+	},
+	{
+		"line": 31,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 31,
+		"token": 7,
+		"source": "doh"
+	},
+	{
+		"line": 31,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 31,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 31,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 31,
+		"token": 7,
+		"source": "e"
+	},
+	{
+		"line": 31,
+		"token": 33,
+		"source": "."
+	},
+	{
+		"line": 31,
+		"token": 7,
+		"source": "doh"
+	},
+	{
+		"line": 31,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 31,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 31,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 31,
+		"token": 7,
+		"source": "doh"
+	},
+	{
+		"line": 31,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 31,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 31,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 31,
+		"token": 7,
+		"source": "printh"
+	},
+	{
+		"line": 31,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 31,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 31,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 33,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 33,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 35,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 35,
+		"token": 8,
+		"source": "Bazz"
+	},
+	{
+		"line": 35,
+		"token": 17,
+		"source": "inherits"
+	},
+	{
+		"line": 35,
+		"token": 8,
+		"source": "IO"
+	},
+	{
+		"line": 35,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 37,
+		"token": 7,
+		"source": "h"
+	},
+	{
+		"line": 37,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 37,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 37,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 37,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 37,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 39,
+		"token": 7,
+		"source": "g"
+	},
+	{
+		"line": 39,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 39,
+		"token": 8,
+		"source": "Foo"
+	},
+	{
+		"line": 39,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 39,
+		"token": 24,
+		"source": "case"
+	},
+	{
+		"line": 39,
+		"token": 7,
+		"source": "self"
+	},
+	{
+		"line": 39,
+		"token": 27,
+		"source": "of"
+	},
+	{
+		"line": 40,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 40,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 40,
+		"token": 8,
+		"source": "Bazz"
+	},
+	{
+		"line": 40,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 40,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 40,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 40,
+		"token": 8,
+		"source": "Foo"
+	},
+	{
+		"line": 40,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 40,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 41,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 41,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 41,
+		"token": 8,
+		"source": "Razz"
+	},
+	{
+		"line": 41,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 41,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 41,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 41,
+		"token": 8,
+		"source": "Bar"
+	},
+	{
+		"line": 41,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 41,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 42,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 42,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 42,
+		"token": 8,
+		"source": "Foo"
+	},
+	{
+		"line": 42,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 42,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 42,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 42,
+		"token": 8,
+		"source": "Razz"
+	},
+	{
+		"line": 42,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 42,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 43,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 43,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 43,
+		"token": 8,
+		"source": "Bar"
+	},
+	{
+		"line": 43,
+		"token": 38,
+		"source": "=\u003e"
+	},
+	{
+		"line": 43,
+		"token": 7,
+		"source": "n"
+	},
+	{
+		"line": 43,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 44,
+		"token": 25,
+		"source": "esac"
+	},
+	{
+		"line": 44,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 46,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 46,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 46,
+		"token": 8,
+		"source": "Object"
+	},
+	{
+		"line": 46,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 46,
+		"token": 7,
+		"source": "printh"
+	},
+	{
+		"line": 46,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 46,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 46,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 48,
+		"token": 7,
+		"source": "printh"
+	},
+	{
+		"line": 48,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 48,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 48,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 48,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 48,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 48,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 48,
+		"token": 7,
+		"source": "out_int"
+	},
+	{
+		"line": 48,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 48,
+		"token": 7,
+		"source": "h"
+	},
+	{
+		"line": 48,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 48,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 48,
+		"token": 9,
+		"source": "0"
+	},
+	{
+		"line": 48,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 48,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 48,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 48,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 50,
+		"token": 7,
+		"source": "doh"
+	},
+	{
+		"line": 50,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 50,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 50,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 50,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 50,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 50,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 50,
+		"token": 19,
+		"source": "let"
+	},
+	{
+		"line": 50,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 50,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 50,
+		"token": 8,
+		"source": "Int"
+	},
+	{
+		"line": 50,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 50,
+		"token": 7,
+		"source": "h"
+	},
+	{
+		"line": 50,
+		"token": 16,
+		"source": "in"
+	},
+	{
+		"line": 50,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 50,
+		"token": 7,
+		"source": "h"
+	},
+	{
+		"line": 50,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 50,
+		"token": 7,
+		"source": "h"
+	},
+	{
+		"line": 50,
+		"token": 40,
+		"source": "+"
+	},
+	{
+		"line": 50,
+		"token": 9,
+		"source": "1"
+	},
+	{
+		"line": 50,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 50,
+		"token": 7,
+		"source": "i"
+	},
+	{
+		"line": 50,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 50,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 50,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 50,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 50,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 51,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 51,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 54,
+		"token": 12,
+		"source": "class"
+	},
+	{
+		"line": 54,
+		"token": 8,
+		"source": "Main"
+	},
+	{
+		"line": 54,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 55,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 55,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 55,
+		"token": 8,
+		"source": "Bazz"
+	},
+	{
+		"line": 55,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 55,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 55,
+		"token": 8,
+		"source": "Bazz"
+	},
+	{
+		"line": 55,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 56,
+		"token": 7,
+		"source": "b"
+	},
+	{
+		"line": 56,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 56,
+		"token": 8,
+		"source": "Foo"
+	},
+	{
+		"line": 56,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 56,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 56,
+		"token": 8,
+		"source": "Foo"
+	},
+	{
+		"line": 56,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 57,
+		"token": 7,
+		"source": "c"
+	},
+	{
+		"line": 57,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 57,
+		"token": 8,
+		"source": "Razz"
+	},
+	{
+		"line": 57,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 57,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 57,
+		"token": 8,
+		"source": "Razz"
+	},
+	{
+		"line": 57,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 58,
+		"token": 7,
+		"source": "d"
+	},
+	{
+		"line": 58,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 58,
+		"token": 8,
+		"source": "Bar"
+	},
+	{
+		"line": 58,
+		"token": 44,
+		"source": "\u003c-"
+	},
+	{
+		"line": 58,
+		"token": 26,
+		"source": "new"
+	},
+	{
+		"line": 58,
+		"token": 8,
+		"source": "Bar"
+	},
+	{
+		"line": 58,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 60,
+		"token": 7,
+		"source": "main"
+	},
+	{
+		"line": 60,
+		"token": 31,
+		"source": "("
+	},
+	{
+		"line": 60,
+		"token": 32,
+		"source": ")"
+	},
+	{
+		"line": 60,
+		"token": 46,
+		"source": ":"
+	},
+	{
+		"line": 60,
+		"token": 8,
+		"source": "String"
+	},
+	{
+		"line": 60,
+		"token": 29,
+		"source": "{"
+	},
+	{
+		"line": 60,
+		"token": 11,
+		"source": "\"do nothing\""
+	},
+	{
+		"line": 60,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 60,
+		"token": 34,
+		"source": ";"
+	},
+	{
+		"line": 62,
+		"token": 30,
+		"source": "}"
+	},
+	{
+		"line": 62,
+		"token": 34,
+		"source": ";"
+	}
+]

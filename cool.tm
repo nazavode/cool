@@ -26,34 +26,37 @@ EnterBlockComment:  /\(\*/ (space)
 <initial>
 invalid_token: /\*\)/
 
+# Sublexer dealing with the stack of open blocks
 <inComment> {
 
-invalid_token: /{eoi}/
-	{ l.State = StateInitial }
+	invalid_token: /{eoi}/
+		{ l.State = StateInitial }
 
-ExitBlockComment:  /\*\)/ (space)
-	{ l.exitBlockComment() }
+	ExitBlockComment:  /\*\)/ (space)
+		{ l.exitBlockComment() }
 
-# TODO
-# Still have to figure out how to match \*+ without breaking comments
-# like "(***)" (see testdata/longcomment.cool for instance). Just go
-# for the slowest solution, at least for now: the rhs is going to
-# make the lexer change state at each "*" or "(" or ")" character
-# found in a block comment.
-# Note: this solution needs no backtracking, lexer tables turned out
-# really compact. Still have to do actual measurements to figure out
-# whether this one is suboptimal in the real world or not.
-BlockComment: /[^\(\)\*]+|[\*\(\)]/ (space)
-}
+	# TODO
+	# Still have to figure out how to match \*+ without breaking comments
+	# like "(***)" (see testdata/longcomment.cool for instance). Just go
+	# for the slowest solution, at least for now: the rhs is going to
+	# match each "*" or "(" or ")" character found in a block comment.
+	# Note: this solution needs no backtracking, lexer tables turned out
+	# really compact compared to a more greedy attempt. Still have to carry
+	# out actual measurements to figure out whether this one is really
+	# suboptimal with actual source files or not.
+	BlockComment: /[^\(\)\*]+|[\*\(\)]/ (space)
+
+} # <inComment>
 
 LineComment: /\-\-.*/ (space)
 
 # Identifiers
 # All identifier rules conflict with keywords. We cannot use the (class)
 # qualifier here since keywords in Cool are not constant words (case
-# insensitiveness makes them non-terminal). Just use explicit priority.
-ObjectId: /[a-z][_\w]*/ -1
-TypeId  : /[A-Z][_\w]*/ -1
+# insensitiveness makes them kinda non-terminals for TextMapper). Just
+# use explicit priority.
+ObjectId: /[a-z]\w*/ -1
+TypeId  : /[A-Z]\w*/ -1
 
 # Literals
 IntegerLiteral: /\d+/
@@ -117,32 +120,32 @@ not     : /{N}{O}{T}/
 '=': /=/
 
 # Case insensitive chars
-A = /(a|A)/
-# B = /(b|B)/
-C = /(c|C)/
-D = /(d|D)/
-E = /(e|E)/
-F = /(f|F)/
-# G = /(g|G)/
-H = /(h|H)/
-I = /(i|I)/
-# J = /(j|J)/
-# K = /(k|K)/
-L = /(l|L)/
-# M = /(m|M)/
-N = /(n|N)/
-O = /(o|O)/
-P = /(p|P)/
-# Q = /(q|Q)/
-R = /(r|R)/
-S = /(s|S)/
-T = /(t|T)/
-U = /(u|U)/
-V = /(v|V)/
-W = /(w|W)/
-# X = /(x|X)/
-# Y = /(y|Y)/
-# Z = /(z|Z)/
+A = /a|A/
+# B = /b|B/
+C = /c|C/
+D = /d|D/
+E = /e|E/
+F = /f|F/
+# G = /g|G/
+H = /h|H/
+I = /i|I/
+# J = /j|J/
+# K = /k|K/
+L = /l|L/
+# M = /m|M/
+N = /n|N/
+O = /o|O/
+P = /p|P/
+# Q = /q|Q/
+R = /r|R/
+S = /s|S/
+T = /t|T/
+U = /u|U/
+V = /v|V/
+W = /w|W/
+# X = /x|X/
+# Y = /y|Y/
+# Z = /z|Z/
 
 %%
 

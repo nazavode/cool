@@ -58,7 +58,23 @@ TypeId  : /[A-Z][_\w]*/ -1
 # Literals
 IntegerLiteral: /\d+/
 BoolLiteral   : /t{R}{U}{E}|f{A}{L}{S}{E}/
-StringLiteral : /"([^"\n\\]|\\[\S\s])*"/
+## String literal:
+strEscape    = /\\[^\x00]/
+strChar      = /[^"\n\\\x00]/
+strRune      = /{strChar}|{strEscape}/
+## Make sure to report an ill formed string literal as a single
+## invalid_token to make the lexer restart scanning right after
+## the closing \". A string literal is ill-formed when:
+##   1. contains at least one '\0' (both escaped and raw):
+invalid_token: /"({strRune}*(\\?\x00){strRune}*)+"/
+##   2. contains at least one raw (non-escaped) '\n':
+#    Note: It's unclear from the language spec whether multiple unescaped '\n'
+#          should produce a single invalid token or not. No golden files with
+#          this case are available but 's19.test.cool' shows that a single '\n'
+#          splits the invalid literal in two halves. Leaving the rule commented
+#          out and looking for clarifications.
+# invalid_token: /"({strRune}*([^\\]?\n){strRune}*)+"/  # <- This needs backtracking!
+StringLiteral: /"{strRune}*"/
 
 # Keywords (case insensitive)
 class   : /{C}{L}{A}{S}{S}/

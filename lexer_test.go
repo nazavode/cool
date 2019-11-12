@@ -1,13 +1,12 @@
 package cool
 
 import (
-	"bytes"
 	"encoding/json"
 	"github.com/google/go-cmp/cmp"
 	"io/ioutil"
 	"log"
+	"path"
 	"testing"
-	"text/template"
 )
 
 type SourceToken struct {
@@ -19,7 +18,7 @@ type SourceToken struct {
 func TestLexerSnippets(t *testing.T) {
 	for _, tt := range testSnippets {
 		t.Run(tt.name, func(t *testing.T) {
-			got := scan(tt.source)
+			got := scanTerminals(tt.source)
 			if diff := cmp.Diff(tt.tokens, got); diff != "" {
 				t.Errorf("lex mismatch (-want +got):\n%s", diff)
 			}
@@ -27,27 +26,18 @@ func TestLexerSnippets(t *testing.T) {
 	}
 }
 
-func TestLexerFiles(t *testing.T) {
-	temp, err := template.New("golden").Parse("{{.}}.lexer.gold.json")
-	if err != nil {
-		panic(err)
-	}
+func TestLexerGoldFiles(t *testing.T) {
 	for _, sourceFileName := range testFiles {
-		t.Run(sourceFileName, func(t *testing.T) {
+		t.Run(path.Base(sourceFileName), func(t *testing.T) {
 			// Source
 			sourceBuf, err := ioutil.ReadFile(sourceFileName)
 			if err != nil {
 				log.Fatalln(err)
 			}
 			source := string(sourceBuf)
-			sourceTokens := scanSource(source)
+			sourceTokens := scanSourceTokens(source)
 			// Golden
-			var b bytes.Buffer
-			err = temp.Execute(&b, sourceFileName)
-			if err != nil {
-				log.Fatalln(err)
-			}
-			goldFileName := b.String()
+			goldFileName := sourceFileName + ".lexer.gold.json"
 			goldBuf, err := ioutil.ReadFile(goldFileName)
 			if err != nil {
 				log.Fatalln(err)
@@ -57,15 +47,29 @@ func TestLexerFiles(t *testing.T) {
 			if err != nil {
 				log.Fatalln(err)
 			}
-			// Compare
-			if diff := cmp.Diff(goldTokens, sourceTokens); diff != "" {
-				t.Errorf("lex mismatch (-want +got):\n%s", diff)
-			}
+			t.Run("Terminals", func(t *testing.T) {
+				var goldTokenIds []Token
+				for _, tok := range goldTokens {
+					goldTokenIds = append(goldTokenIds, tok.Terminal)
+				}
+				var sourceTokenIds []Token
+				for _, tok := range sourceTokens {
+					sourceTokenIds = append(sourceTokenIds, tok.Terminal)
+				}
+				if diff := cmp.Diff(goldTokenIds, sourceTokenIds); diff != "" {
+					t.Errorf("lex mismatch (-want +got):\n%s", diff)
+				}
+			})
+			t.Run("Values", func(t *testing.T) {
+				if diff := cmp.Diff(goldTokens, sourceTokens); diff != "" {
+					t.Errorf("lex mismatch (-want +got):\n%s", diff)
+				}
+			})
 		})
 	}
 }
 
-func scanSource(source string) []SourceToken {
+func scanSourceTokens(source string) []SourceToken {
 	var lex Lexer
 	lex.Init(source)
 	var tokens []SourceToken
@@ -75,9 +79,9 @@ func scanSource(source string) []SourceToken {
 	return tokens
 }
 
-func scan(source string) []Token {
+func scanTerminals(source string) []Token {
 	var tokens []Token
-	for _, t := range scanSource(source) {
+	for _, t := range scanSourceTokens(source) {
 		tokens = append(tokens, t.Terminal)
 	}
 	return tokens
@@ -100,6 +104,8 @@ var testSnippets = []struct {
 	{"Identifier", "object Type oBJECT", []Token{OBJECTID, TYPEID, OBJECTID}},
 	{"IntegerLiteral", "0 000 0000 01234567890", []Token{INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL, INTEGERLITERAL}},
 	{"StringLiteral", "\"\" \" \" \" foo \"", []Token{STRINGLITERAL, STRINGLITERAL, STRINGLITERAL}},
+	{"StringLiteralEscapes", "\" \\a\\b\\\"\\c\\\"\\d\\\\\\\n \"", []Token{STRINGLITERAL}},
+	{"EmptyStringLiteral", "\"\"", []Token{STRINGLITERAL}},
 	{"Whitespace", "    \t\t \f \v \r\r\r\n\n      ", nil},
 	{"BoolLiteral", "true false tRUE fALSE True False", []Token{BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, BOOLLITERAL, TYPEID, TYPEID}},
 	{"KeywordClass", "class CLASS Class cLASS", []Token{CLASS, CLASS, CLASS, CLASS}},
@@ -164,6 +170,16 @@ var testSnippets = []struct {
 	{"TokenAndInvalidRSub", "a ] a", []Token{OBJECTID, INVALID_TOKEN, OBJECTID}},
 	{"TokenAndInvalidBackslash", "a \\ a", []Token{OBJECTID, INVALID_TOKEN, OBJECTID}},
 	{"TokenAndInvalidPipe", "a | a", []Token{OBJECTID, INVALID_TOKEN, OBJECTID}},
+	{"InvalidNull", "\x00", []Token{INVALID_TOKEN}},
+	{"TokenAndInvalidNull", "a \x00 a\x00a", []Token{OBJECTID, INVALID_TOKEN, OBJECTID, INVALID_TOKEN, OBJECTID}},
+	{"OneNullInStringLiteral", "\"this is a string \x00 literal\"", []Token{INVALID_TOKEN}},
+	{"TwoNullInStringLiteral", "\"this is \x00 a string \x00 literal\"", []Token{INVALID_TOKEN}},
+	{"OneEscapedNullInStringLiteral", "\"this is an ill formed string \\\x00 literal\"", []Token{INVALID_TOKEN}},
+	{"TwoEscapedNullInStringLiteral", "\"this is \\\x00 an ill formed string \\\x00 literal\"", []Token{INVALID_TOKEN}},
+	// Unescaped '\n' split string literals in lexable chunks.
+	// Unclear if it is the right behaviour, no hints from the lang spec.
+	// See the 'StringLiteral' rule for details.
+	{"StringLiteralUnsecapedNewline", "\"a \n b\"", []Token{INVALID_TOKEN, OBJECTID, INVALID_TOKEN}},
 }
 
 var testFiles = []string{
@@ -227,9 +243,7 @@ var testFiles = []string{
 	"testdata/objectid.test.cool",
 	"testdata/palindrome.cool",
 	"testdata/sort_list.cl.cool",
+	"testdata/escapednull.cool",
+	"testdata/null_in_string.cl.cool",
+	"testdata/null_in_string_followed_by_tokens.cl.cool",
 }
-
-// TODO
-// FAIL {"testdata/escapednull.cool", []Token{INVALID_TOKEN}},
-// FAIL {"testdata/null_in_string.cl.cool", []Token{INVALID_TOKEN}},
-// FAIL {"testdata/null_in_string_followed_by_tokens.cl.cool", []Token{INVALID_TOKEN, OBJECTID, PLUS}},

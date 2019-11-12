@@ -1,0 +1,17 @@
+[
+	{
+		"line": 2,
+		"token": 1,
+		"source": "\"null character is here -\u003e\u0000\u003c-\""
+	},
+	{
+		"line": 2,
+		"token": 7,
+		"source": "a"
+	},
+	{
+		"line": 2,
+		"token": 40,
+		"source": "+"
+	}
+]

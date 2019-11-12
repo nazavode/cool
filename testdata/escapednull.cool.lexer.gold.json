@@ -1,0 +1,7 @@
+[
+	{
+		"line": 1,
+		"token": 1,
+		"source": "\"This contains an escaped null character \\\u0000\""
+	}
+]

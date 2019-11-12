@@ -74,8 +74,8 @@ invalid_token: /"({strRune}*(\\?\x00){strRune}*)+"/
 #    Note: It's unclear from the language spec whether multiple unescaped '\n'
 #          should produce a single invalid token or not. No golden files with
 #          this case are available but 's19.test.cool' shows that a single '\n'
-#          splits the invalid literal in two halves. Leaving the rule commented
-#          out and looking for clarifications.
+#          splits the invalid literal in two lexable halves. Leaving the rule
+#          commented out while looking for clarifications.
 # invalid_token: /"({strRune}*([^\\]?\n){strRune}*)+"/  # <- This needs backtracking!
 StringLiteral: /"{strRune}*"/
 

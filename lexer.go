@@ -26,8 +26,9 @@ type Lexer struct {
 	scanOffset  int  // scanning offset
 	value       interface{}
 
-	State        int // lexer state, modifiable
-	commentLevel int // number of open nested block comments
+	State              int                // lexer state, modifiable
+	commentLevel       int                // number of open nested block comments
+	invalidTokenReason InvalidTokenReason // reason for the last invalid token found
 }
 
 var bomSeq = "\xef\xbb\xbf"
@@ -44,6 +45,7 @@ func (l *Lexer) Init(source string) {
 	l.tokenLine = 1
 	l.State = 0
 	l.commentLevel = 0
+	l.invalidTokenReason = InvalidTokenUnknownReason
 
 	if strings.HasPrefix(source, bomSeq) {
 		l.offset += len(bomSeq)
@@ -104,26 +106,39 @@ restart:
 		if l.offset == l.tokenOffset {
 			l.rewind(l.scanOffset)
 		}
-	case 2: // whitespace: /[\n\r\t\f\v ]+/
+	case 2: // invalid_token: /\x00/
+		{
+			l.invalidTokenReason = InvalidTokenNullCharInCode
+		}
+	case 3: // whitespace: /[\n\r\t\f\v ]+/
 		space = true
-	case 3: // EnterBlockComment: /\(\*/
+	case 4: // EnterBlockComment: /\(\*/
 		space = true
 		{
 			l.enterBlockComment()
 		}
-	case 4: // invalid_token: /{eoi}/
+	case 5: // invalid_token: /\*\)/
+		{
+			l.invalidTokenReason = InvalidTokenUnmatchedBlockComment
+		}
+	case 6: // invalid_token: /{eoi}/
 		{
 			l.State = StateInitial
+			l.invalidTokenReason = InvalidTokenEoiInComment
 		}
-	case 5: // ExitBlockComment: /\*\)/
+	case 7: // ExitBlockComment: /\*\)/
 		space = true
 		{
 			l.exitBlockComment()
 		}
-	case 6: // BlockComment: /[^\(\)\*]+|[\*\(\)]/
+	case 8: // BlockComment: /[^\(\)\*]+|[\*\(\)]/
 		space = true
-	case 7: // LineComment: /\-\-.*/
+	case 9: // LineComment: /\-\-.*/
 		space = true
+	case 14: // invalid_token: /"({strRune}*(\\?\x00){strRune}*)+"/
+		{
+			l.invalidTokenReason = InvalidTokenNullCharInString
+		}
 	}
 	if space {
 		goto restart
@@ -180,6 +195,17 @@ func (l *Lexer) rewind(offset int) {
 		l.ch = -1 // EOI
 	}
 }
+
+type InvalidTokenReason int
+
+const (
+	InvalidTokenUnknownReason = iota - 1
+	InvalidTokenEoiInComment
+	InvalidTokenUnterminatedStringLiteral
+	InvalidTokenNullCharInString
+	InvalidTokenNullCharInCode
+	InvalidTokenUnmatchedBlockComment
+)
 
 // enterBlockComment marks the beginning of a comment block
 // and makes the lexer to transition to "inComment" state.

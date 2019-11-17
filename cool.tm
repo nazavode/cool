@@ -15,6 +15,7 @@ package = "github.com/nazavode/cool"
 invalid_token:
 
 invalid_token: /\x00/
+	{ l.invalidTokenReason = InvalidTokenNullCharInCode }
 
 whitespace: /[\n\r\t\f\v ]+/ (space)
 
@@ -25,12 +26,14 @@ EnterBlockComment:  /\(\*/ (space)
 
 <initial>
 invalid_token: /\*\)/
+{ l.invalidTokenReason = InvalidTokenUnmatchedBlockComment }
 
 # Sublexer dealing with the stack of open blocks
 <inComment> {
 
-	invalid_token: /{eoi}/
-		{ l.State = StateInitial }
+	invalid_token: /{eoi}/ { 
+		l.State = StateInitial
+		l.invalidTokenReason = InvalidTokenEoiInComment }
 
 	ExitBlockComment:  /\*\)/ (space)
 		{ l.exitBlockComment() }
@@ -70,6 +73,7 @@ strRune      = /{strChar}|{strEscape}/
 ## the closing \". A string literal is ill-formed when:
 ##   1. contains at least one '\0' (both escaped and raw):
 invalid_token: /"({strRune}*(\\?\x00){strRune}*)+"/
+	{ l.invalidTokenReason = InvalidTokenNullCharInString }
 ##   2. contains at least one raw (non-escaped) '\n':
 #    Note: It's unclear from the language spec whether multiple unescaped '\n'
 #          should produce a single invalid token or not. No golden files with
@@ -151,14 +155,27 @@ W = /w|W/
 
 ${template go_lexer.stateVars-}
 	commentLevel int // number of open nested block comments
+	invalidTokenReason InvalidTokenReason // reason for the last invalid token found
 ${end}
 
 ${template go_lexer.initStateVars-}
 	l.commentLevel = 0
+	l.invalidTokenReason = InvalidTokenUnknownReason
 ${end}
 
 ${template newTemplates-}
 {{define "onAfterLexer"}}
+
+type InvalidTokenReason int
+
+const (
+	InvalidTokenUnknownReason = iota - 1
+	InvalidTokenEoiInComment
+	InvalidTokenUnterminatedStringLiteral
+	InvalidTokenNullCharInString
+	InvalidTokenNullCharInCode
+	InvalidTokenUnmatchedBlockComment
+)
 
 // enterBlockComment marks the beginning of a comment block
 // and makes the lexer to transition to "inComment" state.

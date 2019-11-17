@@ -72,9 +72,14 @@ strRune      = /{strChar}|{strEscape}/
 ## invalid_token to make the lexer restart scanning right after
 ## the closing \". A string literal is ill-formed when:
 ##   1. contains at least one '\0' (both escaped and raw):
-invalid_token: /"({strRune}*(\\?\x00){strRune}*)+"/
+invalid_token: /"({strRune}*\x00{strRune}*)+"/
 	{ l.invalidTokenClass = InvalidTokenNullCharInString }
-##   2. contains at least one raw (non-escaped) '\n':
+invalid_token: /"({strRune}*\\\x00{strRune}*)+"/
+	{ l.invalidTokenClass = InvalidTokenEscapedNullCharInString }
+##   2. contains end-of-input:
+invalid_token: /"{strRune}*{eoi}/
+	{ l.invalidTokenClass = InvalidTokenEoiInString }
+##   3. contains at least one raw (non-escaped) '\n':
 #    Note: It's unclear from the language spec whether multiple unescaped '\n'
 #          should produce a single invalid token or not. No golden files with
 #          this case are available but 's19.test.cool' shows that a single '\n'
@@ -171,8 +176,10 @@ type InvalidTokenClass int
 const (
 	InvalidTokenUnknown = iota - 1
 	InvalidTokenEoiInComment
+        InvalidTokenEoiInString
 	InvalidTokenUnterminatedStringLiteral
 	InvalidTokenNullCharInString
+        InvalidTokenEscapedNullCharInString
 	InvalidTokenNullCharInCode
 	InvalidTokenUnmatchedBlockComment
 )

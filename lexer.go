@@ -135,9 +135,17 @@ restart:
 		space = true
 	case 9: // LineComment: /\-\-.*/
 		space = true
-	case 14: // invalid_token: /"({strRune}*(\\?\x00){strRune}*)+"/
+	case 14: // invalid_token: /"({strRune}*\x00{strRune}*)+"/
 		{
 			l.invalidTokenClass = InvalidTokenNullCharInString
+		}
+	case 15: // invalid_token: /"({strRune}*\\\x00{strRune}*)+"/
+		{
+			l.invalidTokenClass = InvalidTokenEscapedNullCharInString
+		}
+	case 16: // invalid_token: /"{strRune}*{eoi}/
+		{
+			l.invalidTokenClass = InvalidTokenEoiInString
 		}
 	}
 	if space {
@@ -201,8 +209,10 @@ type InvalidTokenClass int
 const (
 	InvalidTokenUnknown = iota - 1
 	InvalidTokenEoiInComment
+	InvalidTokenEoiInString
 	InvalidTokenUnterminatedStringLiteral
 	InvalidTokenNullCharInString
+	InvalidTokenEscapedNullCharInString
 	InvalidTokenNullCharInCode
 	InvalidTokenUnmatchedBlockComment
 )

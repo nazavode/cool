@@ -26,9 +26,9 @@ type Lexer struct {
 	scanOffset  int  // scanning offset
 	value       interface{}
 
-	State              int                // lexer state, modifiable
-	commentLevel       int                // number of open nested block comments
-	invalidTokenReason InvalidTokenReason // reason for the last invalid token found
+	State             int               // lexer state, modifiable
+	commentLevel      int               // number of open nested block comments
+	invalidTokenClass InvalidTokenClass // reason for the last invalid token found
 }
 
 var bomSeq = "\xef\xbb\xbf"
@@ -45,7 +45,7 @@ func (l *Lexer) Init(source string) {
 	l.tokenLine = 1
 	l.State = 0
 	l.commentLevel = 0
-	l.invalidTokenReason = InvalidTokenUnknownReason
+	l.invalidTokenClass = InvalidTokenUnknown
 
 	if strings.HasPrefix(source, bomSeq) {
 		l.offset += len(bomSeq)
@@ -108,7 +108,7 @@ restart:
 		}
 	case 2: // invalid_token: /\x00/
 		{
-			l.invalidTokenReason = InvalidTokenNullCharInCode
+			l.invalidTokenClass = InvalidTokenNullCharInCode
 		}
 	case 3: // whitespace: /[\n\r\t\f\v ]+/
 		space = true
@@ -119,12 +119,12 @@ restart:
 		}
 	case 5: // invalid_token: /\*\)/
 		{
-			l.invalidTokenReason = InvalidTokenUnmatchedBlockComment
+			l.invalidTokenClass = InvalidTokenUnmatchedBlockComment
 		}
 	case 6: // invalid_token: /{eoi}/
 		{
 			l.State = StateInitial
-			l.invalidTokenReason = InvalidTokenEoiInComment
+			l.invalidTokenClass = InvalidTokenEoiInComment
 		}
 	case 7: // ExitBlockComment: /\*\)/
 		space = true
@@ -137,7 +137,7 @@ restart:
 		space = true
 	case 14: // invalid_token: /"({strRune}*(\\?\x00){strRune}*)+"/
 		{
-			l.invalidTokenReason = InvalidTokenNullCharInString
+			l.invalidTokenClass = InvalidTokenNullCharInString
 		}
 	}
 	if space {
@@ -196,16 +196,22 @@ func (l *Lexer) rewind(offset int) {
 	}
 }
 
-type InvalidTokenReason int
+type InvalidTokenClass int
 
 const (
-	InvalidTokenUnknownReason = iota - 1
+	InvalidTokenUnknown = iota - 1
 	InvalidTokenEoiInComment
 	InvalidTokenUnterminatedStringLiteral
 	InvalidTokenNullCharInString
 	InvalidTokenNullCharInCode
 	InvalidTokenUnmatchedBlockComment
 )
+
+// InvalidTokenReason returns the error class that led to the
+// last invalid token found during lexing.
+func (l *Lexer) InvalidTokenReason() InvalidTokenClass {
+	return l.invalidTokenClass
+}
 
 // enterBlockComment marks the beginning of a comment block
 // and makes the lexer to transition to "inComment" state.
